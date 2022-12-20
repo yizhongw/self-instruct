@@ -9,6 +9,8 @@ In recent years, there has been a growing interest in building models that can f
 
 ### How SELF-INSTRUCT works?
 The SELF-INSTRUCT process is an iterative bootstrapping algorithm that starts with a seed set of manually-written instructions and uses them to prompt the language model to generate new instructions and corresponding input-output instances. These generations are then filtered to remove low-quality or similar ones, and the resulting data is added back to the task pool. This process can be repeated multiple times, resulting in a large collection of instructional data that can be used to fine-tune the language model to follow instructions more effectively.
+Here is an overview of SELF-INSTRUCT:
+![](doc/pipeline.JPG)
 
 ## Setup
 Code and data for the SELF-INSTRUCT framework will be made available in this repository soon.
