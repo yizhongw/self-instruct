@@ -1,0 +1,200 @@
+{"prompt": "What are the topics in the sentence: Skier skis down the mountain\n", "completion": "ski, mountain, skier<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A skier is skiing down a mountain.\n", "completion": "ski, mountain, skier<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Three skiers are skiing on a snowy mountain.\n", "completion": "ski, mountain, skier<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The dog is wagging his tail.\n", "completion": "wag, tail, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A dog wags his tail at the boy.\n", "completion": "wag, tail, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a dog wags its tail with its heart\n", "completion": "wag, tail, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: woman paddling canoe on a lake\n", "completion": "lake, paddle, canoe<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: paddle an open canoe along lake .\n", "completion": "lake, paddle, canoe<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a man paddles his canoe on the lake.\n", "completion": "lake, paddle, canoe<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train pulls into station\n", "completion": "station, train, pull<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train pulling in to station .\n", "completion": "station, train, pull<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: the train pulling into station\n", "completion": "station, train, pull<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A horse is eating hay.\n", "completion": "hay, eat, horse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The horses are eating hay.\n", "completion": "hay, eat, horse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A horse eats hay in the barn\n", "completion": "hay, eat, horse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: watch a match with fans\n", "completion": "fan, match, watch<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: the fans watch the match\n", "completion": "fan, match, watch<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a fan watches during the match\n", "completion": "fan, match, watch<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a lake surrounded by mountains .\n", "completion": "mountain, surround, lake<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: lake from the surrounding mountains\n", "completion": "mountain, surround, lake<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: one of the mountain ranges that surrounds lake .\n", "completion": "mountain, surround, lake<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A dog laying on a rug.\n", "completion": "lay, rug, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The dogs laid down on the rug\n", "completion": "lay, rug, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Brown dog chews on bone while laying on the rug.\n", "completion": "lay, rug, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: hanging a painting on a wall at home\n", "completion": "painting, wall, hang<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: paintings of horses hang on the walls .\n", "completion": "painting, wall, hang<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: There is only one painting hanging on the wall.\n", "completion": "painting, wall, hang<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: boy carries a tray of food .\n", "completion": "food, carry, tray<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: people carrying food on trays\n", "completion": "food, carry, tray<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The woman is carrying two trays of food.\n", "completion": "food, carry, tray<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: soccer fans watches a league match in a stadium\n", "completion": "match, stadium, watch<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A stadium full of people watching a tennis match.\n", "completion": "match, stadium, watch<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: supporters watch the match from a hill outside the stadium\n", "completion": "match, stadium, watch<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A cat licks his paws.\n", "completion": "paw, lick, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A cat is licking its paw\n", "completion": "paw, lick, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: the cat licks the pad of his front paw\n", "completion": "paw, lick, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a bath room with a toilet and tiled walls\n", "completion": "room, tile, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Three men tile a wall in a large empty room\n", "completion": "room, tile, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A wall mounted urinal in a checker tiled rest room.\n", "completion": "room, tile, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: canoe on a shore of lake .\n", "completion": "lake, shore, canoe<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: canoe on shore with rainbow across the lake\n", "completion": "lake, shore, canoe<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Several canoes parked in the grass on the shore of a lake\n", "completion": "lake, shore, canoe<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A skier on his way to the mountain.\n", "completion": "mountain, skier, way<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: skiers make their way down the mountain\n", "completion": "mountain, skier, way<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A skier making her way down a snowy mountain.\n", "completion": "mountain, skier, way<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: driving boat on a lake\n", "completion": "boat, lake, drive<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a boat is being driven through a lake\n", "completion": "boat, lake, drive<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A fisherman drives his boat on the lake\n", "completion": "boat, lake, drive<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A horse is eating grass.\n", "completion": "grass, horse, eat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The horses are eating grass.\n", "completion": "grass, horse, eat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The old horse ate grass all day.\n", "completion": "grass, horse, eat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train coming down the track\n", "completion": "train, come, track<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A train is coming along on a track.\n", "completion": "train, come, track<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a long train in coming down some tracks\n", "completion": "train, come, track<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train moving on the tracks\n", "completion": "train, track, move<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A red train is moving down a track\n", "completion": "train, track, move<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A train moves slowly on some empty tracks\n", "completion": "train, track, move<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train leaves the station\n", "completion": "train, station, leave<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train leaving station bound\n", "completion": "train, station, leave<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a fast train about to leave station\n", "completion": "train, station, leave<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train and passengers at the station\n", "completion": "passenger, train, station<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: passengers leaving a train on a station\n", "completion": "passenger, train, station<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train at station with no passengers joining\n", "completion": "passenger, train, station<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train arrives at station\n", "completion": "train, station, arrive<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train arriving at the station\n", "completion": "train, station, arrive<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: subway train arrives in the station\n", "completion": "train, station, arrive<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train sits at the station\n", "completion": "station, sit, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A train that is sitting in a station.\n", "completion": "station, sit, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A red train sitting at an empty station.\n", "completion": "station, sit, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a tea of horses pull a wagon\n", "completion": "wagon, horse, pull<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: horse pulling man on wagon .\n", "completion": "wagon, horse, pull<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A wagon is being pulled by horses.\n", "completion": "wagon, horse, pull<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train is stopped at a station\n", "completion": "station, stop, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: trains stopping at the station\n", "completion": "station, stop, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The empty train is stopped in the station.\n", "completion": "station, stop, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A plane sits on the runway\n", "completion": "plane, runway, sit<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: An old plane is sitting on a runway.\n", "completion": "plane, runway, sit<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Two planes are sitting out on the runway.\n", "completion": "plane, runway, sit<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: plane flying into the clouds\n", "completion": "fly, cloud, plane<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: flying plane against a cloud .\n", "completion": "fly, cloud, plane<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A plane flies over head in the clouds.\n", "completion": "fly, cloud, plane<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A dog herds a sheep.\n", "completion": "herd, dog, sheep<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A dog is herding sheep.\n", "completion": "herd, dog, sheep<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The dogs are herding sheep.\n", "completion": "herd, dog, sheep<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: boats sitting on the beach\n", "completion": "boat, sit, beach<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a boat is sitting up on a beach\n", "completion": "boat, sit, beach<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Pelicans sit on a blue boat at the beach.\n", "completion": "boat, sit, beach<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a train coming into station\n", "completion": "train, come, station<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: tube train comes to station .\n", "completion": "train, come, station<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: train coming in to the station\n", "completion": "train, come, station<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: clouds floating in the sky\n", "completion": "float, sky, cloud<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: clouds float through a blue sky\n", "completion": "float, sky, cloud<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: shot of clouds that float across the sky\n", "completion": "float, sky, cloud<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: elephants pulling grass to eat .\n", "completion": "eat, grass, elephant<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: An elephant is eating grass in Kenya.\n", "completion": "eat, grass, elephant<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a bunch of elephants are eating grass\n", "completion": "eat, grass, elephant<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: family spend time in the park\n", "completion": "family, time, spend<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: spending time with the family\n", "completion": "family, time, spend<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: family spend time at a holidays\n", "completion": "family, time, spend<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: black walls and tiles in the bathroom\n", "completion": "wall, tile, bathroom<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A bathroom has green tile on the walls.\n", "completion": "wall, tile, bathroom<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A bathroom with blue walls and pink tile.\n", "completion": "wall, tile, bathroom<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A red light shines in his window.\n", "completion": "window, light, shine<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Light from a window shining onto a bed.\n", "completion": "window, light, shine<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A beam of light shines through the window.\n", "completion": "window, light, shine<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: light coming through the windows\n", "completion": "come, light, window<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Some light comes in from the windows.\n", "completion": "come, light, window<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Very faint light comes in at a side window.\n", "completion": "come, light, window<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a subway train enters a station\n", "completion": "station, enter, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The train is entering the station.\n", "completion": "station, enter, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: people enter a tube train at station .\n", "completion": "station, enter, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: building and clouds moving in the blue sky\n", "completion": "cloud, building, sky<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: white clouds in a blue sky reflecting off buildings\n", "completion": "cloud, building, sky<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: building and clouds against blue sky seen from a city\n", "completion": "cloud, building, sky<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: feeding giraffe at the zoo\n", "completion": "giraffe, feed, zoo<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A boy feeding a giraffe at a zoo\n", "completion": "giraffe, feed, zoo<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A woman feeds two giraffes at the zoo.\n", "completion": "giraffe, feed, zoo<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat lay on the grass\n", "completion": "lie, grass, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat lying in the grass\n", "completion": "lie, grass, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat lying on grass in a public park\n", "completion": "lie, grass, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: tourists spend time on a beach\n", "completion": "beach, time, spend<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: people spend time at the beach\n", "completion": "beach, time, spend<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: spending some time on the beach\n", "completion": "beach, time, spend<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat eating corn on the cob\n", "completion": "corn, cob, eat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: child eating a cob of corn .\n", "completion": "corn, cob, eat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A boy is trying to eat corn on the cob.\n", "completion": "corn, cob, eat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: sheeps eat hay on the farm .\n", "completion": "eat, hay, sheep<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: several sheep eating hay in a barn\n", "completion": "eat, hay, sheep<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: sheep in a pen with some hay to eat\n", "completion": "eat, hay, sheep<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a student works on a computer\n", "completion": "student, work, computer<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: student working at a computer\n", "completion": "student, work, computer<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: students working on the computer .\n", "completion": "student, work, computer<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: People wait for their luggage at an airport.\n", "completion": "wait, luggage, airport<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Man waiting next to his luggage at an airport.\n", "completion": "wait, luggage, airport<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Several men waiting on their luggage at the airport.\n", "completion": "wait, luggage, airport<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: the ship passes under the bridge\n", "completion": "bridge, ship, pass<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: with cargo ship passing under bridge\n", "completion": "bridge, ship, pass<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A bridge rises to let two ships pass.\n", "completion": "bridge, ship, pass<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a bride with a bouquet of flowers\n", "completion": "bride, flower, bouquet<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: the bride chose glorious flowers for the bouquets\n", "completion": "bride, flower, bouquet<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a bouquet of yellow and orange flowers for the bride .\n", "completion": "bride, flower, bouquet<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: the couple stands by the cake\n", "completion": "cake, couple, stand<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The couple is standing next to a cake.\n", "completion": "cake, couple, stand<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A couple stands behind their wedding cake.\n", "completion": "cake, couple, stand<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat staring at the window\n", "completion": "window, stare, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A cat staring out a window.\n", "completion": "window, stare, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The cat stares out of a four paned window.\n", "completion": "window, stare, cat<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: nurse with a patient in the hospital\n", "completion": "hospital, patient, nurse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: nurse visiting her patient at the hospital\n", "completion": "hospital, patient, nurse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: nurses take care of a patient at a hospital .\n", "completion": "hospital, patient, nurse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: pug dog lying under a blanket\n", "completion": "lie, dog, blanket<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A man lies on a blanket with his dog.\n", "completion": "lie, dog, blanket<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The dog and her puppies lay on a blanket.\n", "completion": "lie, dog, blanket<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A farmer plows his field.\n", "completion": "field, plow, farmer<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The farmer is plowing his field.\n", "completion": "field, plow, farmer<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A couple of farmers plowing a field\n", "completion": "field, plow, farmer<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat lying on a blanket\n", "completion": "blanket, cat, lie<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Two cats lay together on a blanket.\n", "completion": "blanket, cat, lie<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cat lying in a blanket in the sunlight\n", "completion": "blanket, cat, lie<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: living room with painting on the wall\n", "completion": "painting, room, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A room that has a lot of paintings on the wall.\n", "completion": "painting, room, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: there were numerous paintings on the walls in this room .\n", "completion": "painting, room, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The skier is headed down a slope.\n", "completion": "head, skier, slope<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A group of skiers heading down the slopes\n", "completion": "head, skier, slope<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Skiers are headed down a small slope by their cabin.\n", "completion": "head, skier, slope<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: mother and daughter smiling in the winter\n", "completion": "smile, daughter, mother<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: mother and daughter embrace and smile on a beach\n", "completion": "smile, daughter, mother<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A mother and daughter are smiling close together.\n", "completion": "smile, daughter, mother<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: gather your friends and family .\n", "completion": "gather, friend, family<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: friend and family gathered round the font\n", "completion": "gather, friend, family<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: friends and family gather often for a buffet .\n", "completion": "gather, friend, family<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A horse is pulling a plow.\n", "completion": "plow, pull, horse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The horses are pulling the plow.\n", "completion": "plow, pull, horse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: women guide a plow pulled by draft horses\n", "completion": "plow, pull, horse<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: people sharing a meal at a table\n", "completion": "share, table, meal<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a large dining table for guests to share meals\n", "completion": "share, table, meal<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The woman and children share a meal at the table.\n", "completion": "share, table, meal<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: cranes and buildings under construction\n", "completion": "construction, building, crane<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: large crane over a building under construction\n", "completion": "construction, building, crane<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: construction the buildings with the help of cranes\n", "completion": "construction, building, crane<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: gold ribbon tied in a bow\n", "completion": "bow, ribbon, tie<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: tie a basic bow with ribbon\n", "completion": "bow, ribbon, tie<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: white gift box with red ribbon tied in a bow\n", "completion": "bow, ribbon, tie<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: family on the picnic in park\n", "completion": "park, family, picnic<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A family has a picnic at the park.\n", "completion": "park, family, picnic<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: young family having picnic in a park\n", "completion": "park, family, picnic<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: sunlight reflected in the water\n", "completion": "reflect, water, sunlight<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: sunlight reflecting off the water\n", "completion": "reflect, water, sunlight<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: rays of sunlight reflect off chilly waters\n", "completion": "reflect, water, sunlight<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: passengers sitting in a train\n", "completion": "passenger, sit, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: passengers sit aboard a train at the station .\n", "completion": "passenger, sit, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A cable train with passengers sit on it tracks.\n", "completion": "passenger, sit, train<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A small clock on a wall in a room.\n", "completion": "clock, room, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: A clock rests along the wall of a room.\n", "completion": "clock, room, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: There are two clocks on the wall in the room.\n", "completion": "clock, room, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: damp on walls and ceiling of a room\n", "completion": "room, ceiling, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: walls add refinement to the room with slanted ceiling\n", "completion": "room, ceiling, wall<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: a dog chews a bone\n", "completion": "chew, bone, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: The dog is chewing a bone.\n", "completion": "chew, bone, dog<|endoftext|>"}
+{"prompt": "What are the topics in the sentence: Dogs lay down and chew bones\n", "completion": "chew, bone, dog<|endoftext|>"}

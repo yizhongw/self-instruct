@@ -1,0 +1,10 @@
+################################
+###### Core dependencies #######
+################################
+rouge-score
+tqdm
+numpy
+openai==0.24.0
+benepar
+spacy
+plotly
