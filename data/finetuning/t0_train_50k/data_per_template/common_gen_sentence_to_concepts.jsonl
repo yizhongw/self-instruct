@@ -1,0 +1,200 @@
+{"prompt": "We have the sentence: Skier skis down the mountain; \nExtract all the key concepts:\n", "completion": "ski, mountain, skier<|endoftext|>"}
+{"prompt": "We have the sentence: A skier is skiing down a mountain.; \nExtract all the key concepts:\n", "completion": "ski, mountain, skier<|endoftext|>"}
+{"prompt": "We have the sentence: Three skiers are skiing on a snowy mountain.; \nExtract all the key concepts:\n", "completion": "ski, mountain, skier<|endoftext|>"}
+{"prompt": "We have the sentence: The dog is wagging his tail.; \nExtract all the key concepts:\n", "completion": "wag, tail, dog<|endoftext|>"}
+{"prompt": "We have the sentence: A dog wags his tail at the boy.; \nExtract all the key concepts:\n", "completion": "wag, tail, dog<|endoftext|>"}
+{"prompt": "We have the sentence: a dog wags its tail with its heart; \nExtract all the key concepts:\n", "completion": "wag, tail, dog<|endoftext|>"}
+{"prompt": "We have the sentence: woman paddling canoe on a lake; \nExtract all the key concepts:\n", "completion": "lake, paddle, canoe<|endoftext|>"}
+{"prompt": "We have the sentence: paddle an open canoe along lake .; \nExtract all the key concepts:\n", "completion": "lake, paddle, canoe<|endoftext|>"}
+{"prompt": "We have the sentence: a man paddles his canoe on the lake.; \nExtract all the key concepts:\n", "completion": "lake, paddle, canoe<|endoftext|>"}
+{"prompt": "We have the sentence: a train pulls into station; \nExtract all the key concepts:\n", "completion": "station, train, pull<|endoftext|>"}
+{"prompt": "We have the sentence: train pulling in to station .; \nExtract all the key concepts:\n", "completion": "station, train, pull<|endoftext|>"}
+{"prompt": "We have the sentence: the train pulling into station; \nExtract all the key concepts:\n", "completion": "station, train, pull<|endoftext|>"}
+{"prompt": "We have the sentence: A horse is eating hay.; \nExtract all the key concepts:\n", "completion": "hay, eat, horse<|endoftext|>"}
+{"prompt": "We have the sentence: The horses are eating hay.; \nExtract all the key concepts:\n", "completion": "hay, eat, horse<|endoftext|>"}
+{"prompt": "We have the sentence: A horse eats hay in the barn; \nExtract all the key concepts:\n", "completion": "hay, eat, horse<|endoftext|>"}
+{"prompt": "We have the sentence: watch a match with fans; \nExtract all the key concepts:\n", "completion": "fan, match, watch<|endoftext|>"}
+{"prompt": "We have the sentence: the fans watch the match; \nExtract all the key concepts:\n", "completion": "fan, match, watch<|endoftext|>"}
+{"prompt": "We have the sentence: a fan watches during the match; \nExtract all the key concepts:\n", "completion": "fan, match, watch<|endoftext|>"}
+{"prompt": "We have the sentence: a lake surrounded by mountains .; \nExtract all the key concepts:\n", "completion": "mountain, surround, lake<|endoftext|>"}
+{"prompt": "We have the sentence: lake from the surrounding mountains; \nExtract all the key concepts:\n", "completion": "mountain, surround, lake<|endoftext|>"}
+{"prompt": "We have the sentence: one of the mountain ranges that surrounds lake .; \nExtract all the key concepts:\n", "completion": "mountain, surround, lake<|endoftext|>"}
+{"prompt": "We have the sentence: A dog laying on a rug.; \nExtract all the key concepts:\n", "completion": "lay, rug, dog<|endoftext|>"}
+{"prompt": "We have the sentence: The dogs laid down on the rug; \nExtract all the key concepts:\n", "completion": "lay, rug, dog<|endoftext|>"}
+{"prompt": "We have the sentence: Brown dog chews on bone while laying on the rug.; \nExtract all the key concepts:\n", "completion": "lay, rug, dog<|endoftext|>"}
+{"prompt": "We have the sentence: hanging a painting on a wall at home; \nExtract all the key concepts:\n", "completion": "painting, wall, hang<|endoftext|>"}
+{"prompt": "We have the sentence: paintings of horses hang on the walls .; \nExtract all the key concepts:\n", "completion": "painting, wall, hang<|endoftext|>"}
+{"prompt": "We have the sentence: There is only one painting hanging on the wall.; \nExtract all the key concepts:\n", "completion": "painting, wall, hang<|endoftext|>"}
+{"prompt": "We have the sentence: boy carries a tray of food .; \nExtract all the key concepts:\n", "completion": "food, carry, tray<|endoftext|>"}
+{"prompt": "We have the sentence: people carrying food on trays; \nExtract all the key concepts:\n", "completion": "food, carry, tray<|endoftext|>"}
+{"prompt": "We have the sentence: The woman is carrying two trays of food.; \nExtract all the key concepts:\n", "completion": "food, carry, tray<|endoftext|>"}
+{"prompt": "We have the sentence: soccer fans watches a league match in a stadium; \nExtract all the key concepts:\n", "completion": "match, stadium, watch<|endoftext|>"}
+{"prompt": "We have the sentence: A stadium full of people watching a tennis match.; \nExtract all the key concepts:\n", "completion": "match, stadium, watch<|endoftext|>"}
+{"prompt": "We have the sentence: supporters watch the match from a hill outside the stadium; \nExtract all the key concepts:\n", "completion": "match, stadium, watch<|endoftext|>"}
+{"prompt": "We have the sentence: A cat licks his paws.; \nExtract all the key concepts:\n", "completion": "paw, lick, cat<|endoftext|>"}
+{"prompt": "We have the sentence: A cat is licking its paw; \nExtract all the key concepts:\n", "completion": "paw, lick, cat<|endoftext|>"}
+{"prompt": "We have the sentence: the cat licks the pad of his front paw; \nExtract all the key concepts:\n", "completion": "paw, lick, cat<|endoftext|>"}
+{"prompt": "We have the sentence: a bath room with a toilet and tiled walls; \nExtract all the key concepts:\n", "completion": "room, tile, wall<|endoftext|>"}
+{"prompt": "We have the sentence: Three men tile a wall in a large empty room; \nExtract all the key concepts:\n", "completion": "room, tile, wall<|endoftext|>"}
+{"prompt": "We have the sentence: A wall mounted urinal in a checker tiled rest room.; \nExtract all the key concepts:\n", "completion": "room, tile, wall<|endoftext|>"}
+{"prompt": "We have the sentence: canoe on a shore of lake .; \nExtract all the key concepts:\n", "completion": "lake, shore, canoe<|endoftext|>"}
+{"prompt": "We have the sentence: canoe on shore with rainbow across the lake; \nExtract all the key concepts:\n", "completion": "lake, shore, canoe<|endoftext|>"}
+{"prompt": "We have the sentence: Several canoes parked in the grass on the shore of a lake ; \nExtract all the key concepts:\n", "completion": "lake, shore, canoe<|endoftext|>"}
+{"prompt": "We have the sentence: A skier on his way to the mountain.; \nExtract all the key concepts:\n", "completion": "mountain, skier, way<|endoftext|>"}
+{"prompt": "We have the sentence: skiers make their way down the mountain; \nExtract all the key concepts:\n", "completion": "mountain, skier, way<|endoftext|>"}
+{"prompt": "We have the sentence: A skier making her way down a snowy mountain.; \nExtract all the key concepts:\n", "completion": "mountain, skier, way<|endoftext|>"}
+{"prompt": "We have the sentence: driving boat on a lake; \nExtract all the key concepts:\n", "completion": "boat, lake, drive<|endoftext|>"}
+{"prompt": "We have the sentence: a boat is being driven through a lake; \nExtract all the key concepts:\n", "completion": "boat, lake, drive<|endoftext|>"}
+{"prompt": "We have the sentence: A fisherman drives his boat on the lake; \nExtract all the key concepts:\n", "completion": "boat, lake, drive<|endoftext|>"}
+{"prompt": "We have the sentence: A horse is eating grass.; \nExtract all the key concepts:\n", "completion": "grass, horse, eat<|endoftext|>"}
+{"prompt": "We have the sentence: The horses are eating grass.; \nExtract all the key concepts:\n", "completion": "grass, horse, eat<|endoftext|>"}
+{"prompt": "We have the sentence: The old horse ate grass all day.; \nExtract all the key concepts:\n", "completion": "grass, horse, eat<|endoftext|>"}
+{"prompt": "We have the sentence: train coming down the track; \nExtract all the key concepts:\n", "completion": "train, come, track<|endoftext|>"}
+{"prompt": "We have the sentence: A train is coming along on a track.; \nExtract all the key concepts:\n", "completion": "train, come, track<|endoftext|>"}
+{"prompt": "We have the sentence: a long train in coming down some tracks; \nExtract all the key concepts:\n", "completion": "train, come, track<|endoftext|>"}
+{"prompt": "We have the sentence: train moving on the tracks; \nExtract all the key concepts:\n", "completion": "train, track, move<|endoftext|>"}
+{"prompt": "We have the sentence: A red train is moving down a track; \nExtract all the key concepts:\n", "completion": "train, track, move<|endoftext|>"}
+{"prompt": "We have the sentence: A train moves slowly on some empty tracks; \nExtract all the key concepts:\n", "completion": "train, track, move<|endoftext|>"}
+{"prompt": "We have the sentence: a train leaves the station; \nExtract all the key concepts:\n", "completion": "train, station, leave<|endoftext|>"}
+{"prompt": "We have the sentence: a train leaving station bound; \nExtract all the key concepts:\n", "completion": "train, station, leave<|endoftext|>"}
+{"prompt": "We have the sentence: a fast train about to leave station; \nExtract all the key concepts:\n", "completion": "train, station, leave<|endoftext|>"}
+{"prompt": "We have the sentence: train and passengers at the station; \nExtract all the key concepts:\n", "completion": "passenger, train, station<|endoftext|>"}
+{"prompt": "We have the sentence: passengers leaving a train on a station; \nExtract all the key concepts:\n", "completion": "passenger, train, station<|endoftext|>"}
+{"prompt": "We have the sentence: a train at station with no passengers joining; \nExtract all the key concepts:\n", "completion": "passenger, train, station<|endoftext|>"}
+{"prompt": "We have the sentence: a train arrives at station; \nExtract all the key concepts:\n", "completion": "train, station, arrive<|endoftext|>"}
+{"prompt": "We have the sentence: train arriving at the station; \nExtract all the key concepts:\n", "completion": "train, station, arrive<|endoftext|>"}
+{"prompt": "We have the sentence: subway train arrives in the station; \nExtract all the key concepts:\n", "completion": "train, station, arrive<|endoftext|>"}
+{"prompt": "We have the sentence: a train sits at the station; \nExtract all the key concepts:\n", "completion": "station, sit, train<|endoftext|>"}
+{"prompt": "We have the sentence: A train that is sitting in a station.; \nExtract all the key concepts:\n", "completion": "station, sit, train<|endoftext|>"}
+{"prompt": "We have the sentence: A red train sitting at an empty station.; \nExtract all the key concepts:\n", "completion": "station, sit, train<|endoftext|>"}
+{"prompt": "We have the sentence: a tea of horses pull a wagon; \nExtract all the key concepts:\n", "completion": "wagon, horse, pull<|endoftext|>"}
+{"prompt": "We have the sentence: horse pulling man on wagon .; \nExtract all the key concepts:\n", "completion": "wagon, horse, pull<|endoftext|>"}
+{"prompt": "We have the sentence: A wagon is being pulled by horses.; \nExtract all the key concepts:\n", "completion": "wagon, horse, pull<|endoftext|>"}
+{"prompt": "We have the sentence: train is stopped at a station; \nExtract all the key concepts:\n", "completion": "station, stop, train<|endoftext|>"}
+{"prompt": "We have the sentence: trains stopping at the station; \nExtract all the key concepts:\n", "completion": "station, stop, train<|endoftext|>"}
+{"prompt": "We have the sentence: The empty train is stopped in the station.; \nExtract all the key concepts:\n", "completion": "station, stop, train<|endoftext|>"}
+{"prompt": "We have the sentence: A plane sits on the runway; \nExtract all the key concepts:\n", "completion": "plane, runway, sit<|endoftext|>"}
+{"prompt": "We have the sentence: An old plane is sitting on a runway.; \nExtract all the key concepts:\n", "completion": "plane, runway, sit<|endoftext|>"}
+{"prompt": "We have the sentence: Two planes are sitting out on the runway.; \nExtract all the key concepts:\n", "completion": "plane, runway, sit<|endoftext|>"}
+{"prompt": "We have the sentence: plane flying into the clouds; \nExtract all the key concepts:\n", "completion": "fly, cloud, plane<|endoftext|>"}
+{"prompt": "We have the sentence: flying plane against a cloud .; \nExtract all the key concepts:\n", "completion": "fly, cloud, plane<|endoftext|>"}
+{"prompt": "We have the sentence: A plane flies over head in the clouds.; \nExtract all the key concepts:\n", "completion": "fly, cloud, plane<|endoftext|>"}
+{"prompt": "We have the sentence: A dog herds a sheep.; \nExtract all the key concepts:\n", "completion": "herd, dog, sheep<|endoftext|>"}
+{"prompt": "We have the sentence: A dog is herding sheep.; \nExtract all the key concepts:\n", "completion": "herd, dog, sheep<|endoftext|>"}
+{"prompt": "We have the sentence: The dogs are herding sheep.; \nExtract all the key concepts:\n", "completion": "herd, dog, sheep<|endoftext|>"}
+{"prompt": "We have the sentence: boats sitting on the beach; \nExtract all the key concepts:\n", "completion": "boat, sit, beach<|endoftext|>"}
+{"prompt": "We have the sentence: a boat is sitting up on a beach; \nExtract all the key concepts:\n", "completion": "boat, sit, beach<|endoftext|>"}
+{"prompt": "We have the sentence: Pelicans sit on a blue boat at the beach.; \nExtract all the key concepts:\n", "completion": "boat, sit, beach<|endoftext|>"}
+{"prompt": "We have the sentence: a train coming into station; \nExtract all the key concepts:\n", "completion": "train, come, station<|endoftext|>"}
+{"prompt": "We have the sentence: tube train comes to station .; \nExtract all the key concepts:\n", "completion": "train, come, station<|endoftext|>"}
+{"prompt": "We have the sentence: train coming in to the station; \nExtract all the key concepts:\n", "completion": "train, come, station<|endoftext|>"}
+{"prompt": "We have the sentence: clouds floating in the sky; \nExtract all the key concepts:\n", "completion": "float, sky, cloud<|endoftext|>"}
+{"prompt": "We have the sentence: clouds float through a blue sky; \nExtract all the key concepts:\n", "completion": "float, sky, cloud<|endoftext|>"}
+{"prompt": "We have the sentence: shot of clouds that float across the sky; \nExtract all the key concepts:\n", "completion": "float, sky, cloud<|endoftext|>"}
+{"prompt": "We have the sentence: elephants pulling grass to eat .; \nExtract all the key concepts:\n", "completion": "eat, grass, elephant<|endoftext|>"}
+{"prompt": "We have the sentence: An elephant is eating grass in Kenya.; \nExtract all the key concepts:\n", "completion": "eat, grass, elephant<|endoftext|>"}
+{"prompt": "We have the sentence: a bunch of elephants are eating grass; \nExtract all the key concepts:\n", "completion": "eat, grass, elephant<|endoftext|>"}
+{"prompt": "We have the sentence: family spend time in the park; \nExtract all the key concepts:\n", "completion": "family, time, spend<|endoftext|>"}
+{"prompt": "We have the sentence: spending time with the family; \nExtract all the key concepts:\n", "completion": "family, time, spend<|endoftext|>"}
+{"prompt": "We have the sentence: family spend time at a holidays; \nExtract all the key concepts:\n", "completion": "family, time, spend<|endoftext|>"}
+{"prompt": "We have the sentence: black walls and tiles in the bathroom; \nExtract all the key concepts:\n", "completion": "wall, tile, bathroom<|endoftext|>"}
+{"prompt": "We have the sentence: A bathroom has green tile on the walls.; \nExtract all the key concepts:\n", "completion": "wall, tile, bathroom<|endoftext|>"}
+{"prompt": "We have the sentence: A bathroom with blue walls and pink tile.; \nExtract all the key concepts:\n", "completion": "wall, tile, bathroom<|endoftext|>"}
+{"prompt": "We have the sentence: A red light shines in his window.; \nExtract all the key concepts:\n", "completion": "window, light, shine<|endoftext|>"}
+{"prompt": "We have the sentence: Light from a window shining onto a bed. ; \nExtract all the key concepts:\n", "completion": "window, light, shine<|endoftext|>"}
+{"prompt": "We have the sentence: A beam of light shines through the window.; \nExtract all the key concepts:\n", "completion": "window, light, shine<|endoftext|>"}
+{"prompt": "We have the sentence: light coming through the windows; \nExtract all the key concepts:\n", "completion": "come, light, window<|endoftext|>"}
+{"prompt": "We have the sentence: Some light comes in from the windows.; \nExtract all the key concepts:\n", "completion": "come, light, window<|endoftext|>"}
+{"prompt": "We have the sentence: Very faint light comes in at a side window.; \nExtract all the key concepts:\n", "completion": "come, light, window<|endoftext|>"}
+{"prompt": "We have the sentence: a subway train enters a station; \nExtract all the key concepts:\n", "completion": "station, enter, train<|endoftext|>"}
+{"prompt": "We have the sentence: The train is entering the station.; \nExtract all the key concepts:\n", "completion": "station, enter, train<|endoftext|>"}
+{"prompt": "We have the sentence: people enter a tube train at station .; \nExtract all the key concepts:\n", "completion": "station, enter, train<|endoftext|>"}
+{"prompt": "We have the sentence: building and clouds moving in the blue sky; \nExtract all the key concepts:\n", "completion": "cloud, building, sky<|endoftext|>"}
+{"prompt": "We have the sentence: white clouds in a blue sky reflecting off buildings; \nExtract all the key concepts:\n", "completion": "cloud, building, sky<|endoftext|>"}
+{"prompt": "We have the sentence: building and clouds against blue sky seen from a city; \nExtract all the key concepts:\n", "completion": "cloud, building, sky<|endoftext|>"}
+{"prompt": "We have the sentence: feeding giraffe at the zoo; \nExtract all the key concepts:\n", "completion": "giraffe, feed, zoo<|endoftext|>"}
+{"prompt": "We have the sentence: A boy feeding a giraffe at a zoo; \nExtract all the key concepts:\n", "completion": "giraffe, feed, zoo<|endoftext|>"}
+{"prompt": "We have the sentence: A woman feeds two giraffes at the zoo.; \nExtract all the key concepts:\n", "completion": "giraffe, feed, zoo<|endoftext|>"}
+{"prompt": "We have the sentence: cat lay on the grass; \nExtract all the key concepts:\n", "completion": "lie, grass, cat<|endoftext|>"}
+{"prompt": "We have the sentence: cat lying in the grass; \nExtract all the key concepts:\n", "completion": "lie, grass, cat<|endoftext|>"}
+{"prompt": "We have the sentence: cat lying on grass in a public park; \nExtract all the key concepts:\n", "completion": "lie, grass, cat<|endoftext|>"}
+{"prompt": "We have the sentence: tourists spend time on a beach; \nExtract all the key concepts:\n", "completion": "beach, time, spend<|endoftext|>"}
+{"prompt": "We have the sentence: people spend time at the beach; \nExtract all the key concepts:\n", "completion": "beach, time, spend<|endoftext|>"}
+{"prompt": "We have the sentence: spending some time on the beach; \nExtract all the key concepts:\n", "completion": "beach, time, spend<|endoftext|>"}
+{"prompt": "We have the sentence: cat eating corn on the cob; \nExtract all the key concepts:\n", "completion": "corn, cob, eat<|endoftext|>"}
+{"prompt": "We have the sentence: child eating a cob of corn .; \nExtract all the key concepts:\n", "completion": "corn, cob, eat<|endoftext|>"}
+{"prompt": "We have the sentence: A boy is trying to eat corn on the cob.; \nExtract all the key concepts:\n", "completion": "corn, cob, eat<|endoftext|>"}
+{"prompt": "We have the sentence: sheeps eat hay on the farm .; \nExtract all the key concepts:\n", "completion": "eat, hay, sheep<|endoftext|>"}
+{"prompt": "We have the sentence: several sheep eating hay in a barn; \nExtract all the key concepts:\n", "completion": "eat, hay, sheep<|endoftext|>"}
+{"prompt": "We have the sentence: sheep in a pen with some hay to eat; \nExtract all the key concepts:\n", "completion": "eat, hay, sheep<|endoftext|>"}
+{"prompt": "We have the sentence: a student works on a computer; \nExtract all the key concepts:\n", "completion": "student, work, computer<|endoftext|>"}
+{"prompt": "We have the sentence: student working at a computer; \nExtract all the key concepts:\n", "completion": "student, work, computer<|endoftext|>"}
+{"prompt": "We have the sentence: students working on the computer .; \nExtract all the key concepts:\n", "completion": "student, work, computer<|endoftext|>"}
+{"prompt": "We have the sentence: People wait for their luggage at an airport.; \nExtract all the key concepts:\n", "completion": "wait, luggage, airport<|endoftext|>"}
+{"prompt": "We have the sentence: Man waiting next to his luggage at an airport.; \nExtract all the key concepts:\n", "completion": "wait, luggage, airport<|endoftext|>"}
+{"prompt": "We have the sentence: Several men waiting on their luggage at the airport.; \nExtract all the key concepts:\n", "completion": "wait, luggage, airport<|endoftext|>"}
+{"prompt": "We have the sentence: the ship passes under the bridge; \nExtract all the key concepts:\n", "completion": "bridge, ship, pass<|endoftext|>"}
+{"prompt": "We have the sentence: with cargo ship passing under bridge; \nExtract all the key concepts:\n", "completion": "bridge, ship, pass<|endoftext|>"}
+{"prompt": "We have the sentence: A bridge rises to let two ships pass.; \nExtract all the key concepts:\n", "completion": "bridge, ship, pass<|endoftext|>"}
+{"prompt": "We have the sentence: a bride with a bouquet of flowers; \nExtract all the key concepts:\n", "completion": "bride, flower, bouquet<|endoftext|>"}
+{"prompt": "We have the sentence: the bride chose glorious flowers for the bouquets; \nExtract all the key concepts:\n", "completion": "bride, flower, bouquet<|endoftext|>"}
+{"prompt": "We have the sentence: a bouquet of yellow and orange flowers for the bride .; \nExtract all the key concepts:\n", "completion": "bride, flower, bouquet<|endoftext|>"}
+{"prompt": "We have the sentence: the couple stands by the cake; \nExtract all the key concepts:\n", "completion": "cake, couple, stand<|endoftext|>"}
+{"prompt": "We have the sentence: The couple is standing next to a cake.; \nExtract all the key concepts:\n", "completion": "cake, couple, stand<|endoftext|>"}
+{"prompt": "We have the sentence: A couple stands behind their wedding cake.; \nExtract all the key concepts:\n", "completion": "cake, couple, stand<|endoftext|>"}
+{"prompt": "We have the sentence: cat staring at the window; \nExtract all the key concepts:\n", "completion": "window, stare, cat<|endoftext|>"}
+{"prompt": "We have the sentence: A cat staring out a window.; \nExtract all the key concepts:\n", "completion": "window, stare, cat<|endoftext|>"}
+{"prompt": "We have the sentence: The cat stares out of a four paned window.; \nExtract all the key concepts:\n", "completion": "window, stare, cat<|endoftext|>"}
+{"prompt": "We have the sentence: nurse with a patient in the hospital; \nExtract all the key concepts:\n", "completion": "hospital, patient, nurse<|endoftext|>"}
+{"prompt": "We have the sentence: nurse visiting her patient at the hospital; \nExtract all the key concepts:\n", "completion": "hospital, patient, nurse<|endoftext|>"}
+{"prompt": "We have the sentence: nurses take care of a patient at a hospital .; \nExtract all the key concepts:\n", "completion": "hospital, patient, nurse<|endoftext|>"}
+{"prompt": "We have the sentence: pug dog lying under a blanket; \nExtract all the key concepts:\n", "completion": "lie, dog, blanket<|endoftext|>"}
+{"prompt": "We have the sentence: A man lies on a blanket with his dog.; \nExtract all the key concepts:\n", "completion": "lie, dog, blanket<|endoftext|>"}
+{"prompt": "We have the sentence: The dog and her puppies lay on a blanket.; \nExtract all the key concepts:\n", "completion": "lie, dog, blanket<|endoftext|>"}
+{"prompt": "We have the sentence: A farmer plows his field.; \nExtract all the key concepts:\n", "completion": "field, plow, farmer<|endoftext|>"}
+{"prompt": "We have the sentence: The farmer is plowing his field.; \nExtract all the key concepts:\n", "completion": "field, plow, farmer<|endoftext|>"}
+{"prompt": "We have the sentence: A couple of farmers plowing a field; \nExtract all the key concepts:\n", "completion": "field, plow, farmer<|endoftext|>"}
+{"prompt": "We have the sentence: cat lying on a blanket; \nExtract all the key concepts:\n", "completion": "blanket, cat, lie<|endoftext|>"}
+{"prompt": "We have the sentence: Two cats lay together on a blanket. ; \nExtract all the key concepts:\n", "completion": "blanket, cat, lie<|endoftext|>"}
+{"prompt": "We have the sentence: cat lying in a blanket in the sunlight; \nExtract all the key concepts:\n", "completion": "blanket, cat, lie<|endoftext|>"}
+{"prompt": "We have the sentence: living room with painting on the wall; \nExtract all the key concepts:\n", "completion": "painting, room, wall<|endoftext|>"}
+{"prompt": "We have the sentence: A room that has a lot of paintings on the wall.; \nExtract all the key concepts:\n", "completion": "painting, room, wall<|endoftext|>"}
+{"prompt": "We have the sentence: there were numerous paintings on the walls in this room .; \nExtract all the key concepts:\n", "completion": "painting, room, wall<|endoftext|>"}
+{"prompt": "We have the sentence: The skier is headed down a slope.; \nExtract all the key concepts:\n", "completion": "head, skier, slope<|endoftext|>"}
+{"prompt": "We have the sentence: A group of skiers heading down the slopes; \nExtract all the key concepts:\n", "completion": "head, skier, slope<|endoftext|>"}
+{"prompt": "We have the sentence: Skiers are headed down a small slope by their cabin.; \nExtract all the key concepts:\n", "completion": "head, skier, slope<|endoftext|>"}
+{"prompt": "We have the sentence: mother and daughter smiling in the winter; \nExtract all the key concepts:\n", "completion": "smile, daughter, mother<|endoftext|>"}
+{"prompt": "We have the sentence: mother and daughter embrace and smile on a beach; \nExtract all the key concepts:\n", "completion": "smile, daughter, mother<|endoftext|>"}
+{"prompt": "We have the sentence: A mother and daughter are smiling close together.; \nExtract all the key concepts:\n", "completion": "smile, daughter, mother<|endoftext|>"}
+{"prompt": "We have the sentence: gather your friends and family .; \nExtract all the key concepts:\n", "completion": "gather, friend, family<|endoftext|>"}
+{"prompt": "We have the sentence: friend and family gathered round the font; \nExtract all the key concepts:\n", "completion": "gather, friend, family<|endoftext|>"}
+{"prompt": "We have the sentence: friends and family gather often for a buffet .; \nExtract all the key concepts:\n", "completion": "gather, friend, family<|endoftext|>"}
+{"prompt": "We have the sentence: A horse is pulling a plow.; \nExtract all the key concepts:\n", "completion": "plow, pull, horse<|endoftext|>"}
+{"prompt": "We have the sentence: The horses are pulling the plow.; \nExtract all the key concepts:\n", "completion": "plow, pull, horse<|endoftext|>"}
+{"prompt": "We have the sentence: women guide a plow pulled by draft horses; \nExtract all the key concepts:\n", "completion": "plow, pull, horse<|endoftext|>"}
+{"prompt": "We have the sentence: people sharing a meal at a table; \nExtract all the key concepts:\n", "completion": "share, table, meal<|endoftext|>"}
+{"prompt": "We have the sentence: a large dining table for guests to share meals; \nExtract all the key concepts:\n", "completion": "share, table, meal<|endoftext|>"}
+{"prompt": "We have the sentence: The woman and children share a meal at the table.; \nExtract all the key concepts:\n", "completion": "share, table, meal<|endoftext|>"}
+{"prompt": "We have the sentence: cranes and buildings under construction; \nExtract all the key concepts:\n", "completion": "construction, building, crane<|endoftext|>"}
+{"prompt": "We have the sentence: large crane over a building under construction; \nExtract all the key concepts:\n", "completion": "construction, building, crane<|endoftext|>"}
+{"prompt": "We have the sentence: construction the buildings with the help of cranes; \nExtract all the key concepts:\n", "completion": "construction, building, crane<|endoftext|>"}
+{"prompt": "We have the sentence: gold ribbon tied in a bow; \nExtract all the key concepts:\n", "completion": "bow, ribbon, tie<|endoftext|>"}
+{"prompt": "We have the sentence: tie a basic bow with ribbon; \nExtract all the key concepts:\n", "completion": "bow, ribbon, tie<|endoftext|>"}
+{"prompt": "We have the sentence: white gift box with red ribbon tied in a bow; \nExtract all the key concepts:\n", "completion": "bow, ribbon, tie<|endoftext|>"}
+{"prompt": "We have the sentence: family on the picnic in park; \nExtract all the key concepts:\n", "completion": "park, family, picnic<|endoftext|>"}
+{"prompt": "We have the sentence: A family has a picnic at the park.; \nExtract all the key concepts:\n", "completion": "park, family, picnic<|endoftext|>"}
+{"prompt": "We have the sentence: young family having picnic in a park; \nExtract all the key concepts:\n", "completion": "park, family, picnic<|endoftext|>"}
+{"prompt": "We have the sentence: sunlight reflected in the water; \nExtract all the key concepts:\n", "completion": "reflect, water, sunlight<|endoftext|>"}
+{"prompt": "We have the sentence: sunlight reflecting off the water; \nExtract all the key concepts:\n", "completion": "reflect, water, sunlight<|endoftext|>"}
+{"prompt": "We have the sentence: rays of sunlight reflect off chilly waters; \nExtract all the key concepts:\n", "completion": "reflect, water, sunlight<|endoftext|>"}
+{"prompt": "We have the sentence: passengers sitting in a train; \nExtract all the key concepts:\n", "completion": "passenger, sit, train<|endoftext|>"}
+{"prompt": "We have the sentence: passengers sit aboard a train at the station .; \nExtract all the key concepts:\n", "completion": "passenger, sit, train<|endoftext|>"}
+{"prompt": "We have the sentence: A cable train with passengers sit on it tracks.; \nExtract all the key concepts:\n", "completion": "passenger, sit, train<|endoftext|>"}
+{"prompt": "We have the sentence: A small clock on a wall in a room.; \nExtract all the key concepts:\n", "completion": "clock, room, wall<|endoftext|>"}
+{"prompt": "We have the sentence: A clock rests along the wall of a room.; \nExtract all the key concepts:\n", "completion": "clock, room, wall<|endoftext|>"}
+{"prompt": "We have the sentence: There are two clocks on the wall in the room.; \nExtract all the key concepts:\n", "completion": "clock, room, wall<|endoftext|>"}
+{"prompt": "We have the sentence: damp on walls and ceiling of a room; \nExtract all the key concepts:\n", "completion": "room, ceiling, wall<|endoftext|>"}
+{"prompt": "We have the sentence: walls add refinement to the room with slanted ceiling; \nExtract all the key concepts:\n", "completion": "room, ceiling, wall<|endoftext|>"}
+{"prompt": "We have the sentence: a dog chews a bone; \nExtract all the key concepts:\n", "completion": "chew, bone, dog<|endoftext|>"}
+{"prompt": "We have the sentence: The dog is chewing a bone.; \nExtract all the key concepts:\n", "completion": "chew, bone, dog<|endoftext|>"}
+{"prompt": "We have the sentence: Dogs lay down and chew bones; \nExtract all the key concepts:\n", "completion": "chew, bone, dog<|endoftext|>"}

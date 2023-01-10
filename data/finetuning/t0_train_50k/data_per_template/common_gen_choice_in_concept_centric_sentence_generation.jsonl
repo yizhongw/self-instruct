@@ -1,0 +1,200 @@
+{"prompt": "Construct a sentence with the word skier. \n\nHint: Use ski, mountain, skier to restrict the output sentence.\n", "completion": "Skier skis down the mountain<|endoftext|>"}
+{"prompt": "Construct a sentence with the word ski. \n\nHint: Use ski, mountain, skier to restrict the output sentence.\n", "completion": "A skier is skiing down a mountain.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word ski. \n\nHint: Use ski, mountain, skier to restrict the output sentence.\n", "completion": "Three skiers are skiing on a snowy mountain.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use wag, tail, dog to restrict the output sentence.\n", "completion": "The dog is wagging his tail.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tail. \n\nHint: Use wag, tail, dog to restrict the output sentence.\n", "completion": "A dog wags his tail at the boy.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word wag. \n\nHint: Use wag, tail, dog to restrict the output sentence.\n", "completion": "a dog wags its tail with its heart<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lake. \n\nHint: Use lake, paddle, canoe to restrict the output sentence.\n", "completion": "woman paddling canoe on a lake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lake. \n\nHint: Use lake, paddle, canoe to restrict the output sentence.\n", "completion": "paddle an open canoe along lake .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word canoe. \n\nHint: Use lake, paddle, canoe to restrict the output sentence.\n", "completion": "a man paddles his canoe on the lake.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, train, pull to restrict the output sentence.\n", "completion": "a train pulls into station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word pull. \n\nHint: Use station, train, pull to restrict the output sentence.\n", "completion": "train pulling in to station .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word pull. \n\nHint: Use station, train, pull to restrict the output sentence.\n", "completion": "the train pulling into station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word horse. \n\nHint: Use hay, eat, horse to restrict the output sentence.\n", "completion": "A horse is eating hay.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word hay. \n\nHint: Use hay, eat, horse to restrict the output sentence.\n", "completion": "The horses are eating hay.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word horse. \n\nHint: Use hay, eat, horse to restrict the output sentence.\n", "completion": "A horse eats hay in the barn<|endoftext|>"}
+{"prompt": "Construct a sentence with the word match. \n\nHint: Use fan, match, watch to restrict the output sentence.\n", "completion": "watch a match with fans<|endoftext|>"}
+{"prompt": "Construct a sentence with the word fan. \n\nHint: Use fan, match, watch to restrict the output sentence.\n", "completion": "the fans watch the match<|endoftext|>"}
+{"prompt": "Construct a sentence with the word fan. \n\nHint: Use fan, match, watch to restrict the output sentence.\n", "completion": "a fan watches during the match<|endoftext|>"}
+{"prompt": "Construct a sentence with the word mountain. \n\nHint: Use mountain, surround, lake to restrict the output sentence.\n", "completion": "a lake surrounded by mountains .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word mountain. \n\nHint: Use mountain, surround, lake to restrict the output sentence.\n", "completion": "lake from the surrounding mountains<|endoftext|>"}
+{"prompt": "Construct a sentence with the word mountain. \n\nHint: Use mountain, surround, lake to restrict the output sentence.\n", "completion": "one of the mountain ranges that surrounds lake .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use lay, rug, dog to restrict the output sentence.\n", "completion": "A dog laying on a rug.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use lay, rug, dog to restrict the output sentence.\n", "completion": "The dogs laid down on the rug<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lay. \n\nHint: Use lay, rug, dog to restrict the output sentence.\n", "completion": "Brown dog chews on bone while laying on the rug.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word hang. \n\nHint: Use painting, wall, hang to restrict the output sentence.\n", "completion": "hanging a painting on a wall at home<|endoftext|>"}
+{"prompt": "Construct a sentence with the word painting. \n\nHint: Use painting, wall, hang to restrict the output sentence.\n", "completion": "paintings of horses hang on the walls .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word hang. \n\nHint: Use painting, wall, hang to restrict the output sentence.\n", "completion": "There is only one painting hanging on the wall.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tray. \n\nHint: Use food, carry, tray to restrict the output sentence.\n", "completion": "boy carries a tray of food .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tray. \n\nHint: Use food, carry, tray to restrict the output sentence.\n", "completion": "people carrying food on trays<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tray. \n\nHint: Use food, carry, tray to restrict the output sentence.\n", "completion": "The woman is carrying two trays of food.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word stadium. \n\nHint: Use match, stadium, watch to restrict the output sentence.\n", "completion": "soccer fans watches a league match in a stadium<|endoftext|>"}
+{"prompt": "Construct a sentence with the word match. \n\nHint: Use match, stadium, watch to restrict the output sentence.\n", "completion": "A stadium full of people watching a tennis match.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word stadium. \n\nHint: Use match, stadium, watch to restrict the output sentence.\n", "completion": "supporters watch the match from a hill outside the stadium<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cat. \n\nHint: Use paw, lick, cat to restrict the output sentence.\n", "completion": "A cat licks his paws.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lick. \n\nHint: Use paw, lick, cat to restrict the output sentence.\n", "completion": "A cat is licking its paw<|endoftext|>"}
+{"prompt": "Construct a sentence with the word paw. \n\nHint: Use paw, lick, cat to restrict the output sentence.\n", "completion": "the cat licks the pad of his front paw<|endoftext|>"}
+{"prompt": "Construct a sentence with the word room. \n\nHint: Use room, tile, wall to restrict the output sentence.\n", "completion": "a bath room with a toilet and tiled walls<|endoftext|>"}
+{"prompt": "Construct a sentence with the word wall. \n\nHint: Use room, tile, wall to restrict the output sentence.\n", "completion": "Three men tile a wall in a large empty room<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tile. \n\nHint: Use room, tile, wall to restrict the output sentence.\n", "completion": "A wall mounted urinal in a checker tiled rest room.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word shore. \n\nHint: Use lake, shore, canoe to restrict the output sentence.\n", "completion": "canoe on a shore of lake .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word shore. \n\nHint: Use lake, shore, canoe to restrict the output sentence.\n", "completion": "canoe on shore with rainbow across the lake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lake. \n\nHint: Use lake, shore, canoe to restrict the output sentence.\n", "completion": "Several canoes parked in the grass on the shore of a lake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word mountain. \n\nHint: Use mountain, skier, way to restrict the output sentence.\n", "completion": "A skier on his way to the mountain.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word skier. \n\nHint: Use mountain, skier, way to restrict the output sentence.\n", "completion": "skiers make their way down the mountain<|endoftext|>"}
+{"prompt": "Construct a sentence with the word mountain. \n\nHint: Use mountain, skier, way to restrict the output sentence.\n", "completion": "A skier making her way down a snowy mountain.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word boat. \n\nHint: Use boat, lake, drive to restrict the output sentence.\n", "completion": "driving boat on a lake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lake. \n\nHint: Use boat, lake, drive to restrict the output sentence.\n", "completion": "a boat is being driven through a lake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word boat. \n\nHint: Use boat, lake, drive to restrict the output sentence.\n", "completion": "A fisherman drives his boat on the lake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word horse. \n\nHint: Use grass, horse, eat to restrict the output sentence.\n", "completion": "A horse is eating grass.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word horse. \n\nHint: Use grass, horse, eat to restrict the output sentence.\n", "completion": "The horses are eating grass.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word eat. \n\nHint: Use grass, horse, eat to restrict the output sentence.\n", "completion": "The old horse ate grass all day.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word come. \n\nHint: Use train, come, track to restrict the output sentence.\n", "completion": "train coming down the track<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use train, come, track to restrict the output sentence.\n", "completion": "A train is coming along on a track.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word track. \n\nHint: Use train, come, track to restrict the output sentence.\n", "completion": "a long train in coming down some tracks<|endoftext|>"}
+{"prompt": "Construct a sentence with the word track. \n\nHint: Use train, track, move to restrict the output sentence.\n", "completion": "train moving on the tracks<|endoftext|>"}
+{"prompt": "Construct a sentence with the word move. \n\nHint: Use train, track, move to restrict the output sentence.\n", "completion": "A red train is moving down a track<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use train, track, move to restrict the output sentence.\n", "completion": "A train moves slowly on some empty tracks<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use train, station, leave to restrict the output sentence.\n", "completion": "a train leaves the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use train, station, leave to restrict the output sentence.\n", "completion": "a train leaving station bound<|endoftext|>"}
+{"prompt": "Construct a sentence with the word leave. \n\nHint: Use train, station, leave to restrict the output sentence.\n", "completion": "a fast train about to leave station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use passenger, train, station to restrict the output sentence.\n", "completion": "train and passengers at the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use passenger, train, station to restrict the output sentence.\n", "completion": "passengers leaving a train on a station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use passenger, train, station to restrict the output sentence.\n", "completion": "a train at station with no passengers joining<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use train, station, arrive to restrict the output sentence.\n", "completion": "a train arrives at station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word arrive. \n\nHint: Use train, station, arrive to restrict the output sentence.\n", "completion": "train arriving at the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use train, station, arrive to restrict the output sentence.\n", "completion": "subway train arrives in the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use station, sit, train to restrict the output sentence.\n", "completion": "a train sits at the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, sit, train to restrict the output sentence.\n", "completion": "A train that is sitting in a station.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, sit, train to restrict the output sentence.\n", "completion": "A red train sitting at an empty station.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word pull. \n\nHint: Use wagon, horse, pull to restrict the output sentence.\n", "completion": "a tea of horses pull a wagon<|endoftext|>"}
+{"prompt": "Construct a sentence with the word wagon. \n\nHint: Use wagon, horse, pull to restrict the output sentence.\n", "completion": "horse pulling man on wagon .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word horse. \n\nHint: Use wagon, horse, pull to restrict the output sentence.\n", "completion": "A wagon is being pulled by horses.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, stop, train to restrict the output sentence.\n", "completion": "train is stopped at a station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, stop, train to restrict the output sentence.\n", "completion": "trains stopping at the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, stop, train to restrict the output sentence.\n", "completion": "The empty train is stopped in the station.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word runway. \n\nHint: Use plane, runway, sit to restrict the output sentence.\n", "completion": "A plane sits on the runway<|endoftext|>"}
+{"prompt": "Construct a sentence with the word runway. \n\nHint: Use plane, runway, sit to restrict the output sentence.\n", "completion": "An old plane is sitting on a runway.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word runway. \n\nHint: Use plane, runway, sit to restrict the output sentence.\n", "completion": "Two planes are sitting out on the runway.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word plane. \n\nHint: Use fly, cloud, plane to restrict the output sentence.\n", "completion": "plane flying into the clouds<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cloud. \n\nHint: Use fly, cloud, plane to restrict the output sentence.\n", "completion": "flying plane against a cloud .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word fly. \n\nHint: Use fly, cloud, plane to restrict the output sentence.\n", "completion": "A plane flies over head in the clouds.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use herd, dog, sheep to restrict the output sentence.\n", "completion": "A dog herds a sheep.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use herd, dog, sheep to restrict the output sentence.\n", "completion": "A dog is herding sheep.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word herd. \n\nHint: Use herd, dog, sheep to restrict the output sentence.\n", "completion": "The dogs are herding sheep.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word beach. \n\nHint: Use boat, sit, beach to restrict the output sentence.\n", "completion": "boats sitting on the beach<|endoftext|>"}
+{"prompt": "Construct a sentence with the word sit. \n\nHint: Use boat, sit, beach to restrict the output sentence.\n", "completion": "a boat is sitting up on a beach<|endoftext|>"}
+{"prompt": "Construct a sentence with the word beach. \n\nHint: Use boat, sit, beach to restrict the output sentence.\n", "completion": "Pelicans sit on a blue boat at the beach.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use train, come, station to restrict the output sentence.\n", "completion": "a train coming into station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use train, come, station to restrict the output sentence.\n", "completion": "tube train comes to station .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use train, come, station to restrict the output sentence.\n", "completion": "train coming in to the station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cloud. \n\nHint: Use float, sky, cloud to restrict the output sentence.\n", "completion": "clouds floating in the sky<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cloud. \n\nHint: Use float, sky, cloud to restrict the output sentence.\n", "completion": "clouds float through a blue sky<|endoftext|>"}
+{"prompt": "Construct a sentence with the word float. \n\nHint: Use float, sky, cloud to restrict the output sentence.\n", "completion": "shot of clouds that float across the sky<|endoftext|>"}
+{"prompt": "Construct a sentence with the word elephant. \n\nHint: Use eat, grass, elephant to restrict the output sentence.\n", "completion": "elephants pulling grass to eat .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word elephant. \n\nHint: Use eat, grass, elephant to restrict the output sentence.\n", "completion": "An elephant is eating grass in Kenya.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word eat. \n\nHint: Use eat, grass, elephant to restrict the output sentence.\n", "completion": "a bunch of elephants are eating grass<|endoftext|>"}
+{"prompt": "Construct a sentence with the word family. \n\nHint: Use family, time, spend to restrict the output sentence.\n", "completion": "family spend time in the park<|endoftext|>"}
+{"prompt": "Construct a sentence with the word time. \n\nHint: Use family, time, spend to restrict the output sentence.\n", "completion": "spending time with the family<|endoftext|>"}
+{"prompt": "Construct a sentence with the word time. \n\nHint: Use family, time, spend to restrict the output sentence.\n", "completion": "family spend time at a holidays<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tile. \n\nHint: Use wall, tile, bathroom to restrict the output sentence.\n", "completion": "black walls and tiles in the bathroom<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bathroom. \n\nHint: Use wall, tile, bathroom to restrict the output sentence.\n", "completion": "A bathroom has green tile on the walls.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bathroom. \n\nHint: Use wall, tile, bathroom to restrict the output sentence.\n", "completion": "A bathroom with blue walls and pink tile.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word shine. \n\nHint: Use window, light, shine to restrict the output sentence.\n", "completion": "A red light shines in his window.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word window. \n\nHint: Use window, light, shine to restrict the output sentence.\n", "completion": "Light from a window shining onto a bed.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word shine. \n\nHint: Use window, light, shine to restrict the output sentence.\n", "completion": "A beam of light shines through the window.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word light. \n\nHint: Use come, light, window to restrict the output sentence.\n", "completion": "light coming through the windows<|endoftext|>"}
+{"prompt": "Construct a sentence with the word come. \n\nHint: Use come, light, window to restrict the output sentence.\n", "completion": "Some light comes in from the windows.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word come. \n\nHint: Use come, light, window to restrict the output sentence.\n", "completion": "Very faint light comes in at a side window.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word station. \n\nHint: Use station, enter, train to restrict the output sentence.\n", "completion": "a subway train enters a station<|endoftext|>"}
+{"prompt": "Construct a sentence with the word enter. \n\nHint: Use station, enter, train to restrict the output sentence.\n", "completion": "The train is entering the station.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word enter. \n\nHint: Use station, enter, train to restrict the output sentence.\n", "completion": "people enter a tube train at station .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word building. \n\nHint: Use cloud, building, sky to restrict the output sentence.\n", "completion": "building and clouds moving in the blue sky<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cloud. \n\nHint: Use cloud, building, sky to restrict the output sentence.\n", "completion": "white clouds in a blue sky reflecting off buildings<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cloud. \n\nHint: Use cloud, building, sky to restrict the output sentence.\n", "completion": "building and clouds against blue sky seen from a city<|endoftext|>"}
+{"prompt": "Construct a sentence with the word zoo. \n\nHint: Use giraffe, feed, zoo to restrict the output sentence.\n", "completion": "feeding giraffe at the zoo<|endoftext|>"}
+{"prompt": "Construct a sentence with the word zoo. \n\nHint: Use giraffe, feed, zoo to restrict the output sentence.\n", "completion": "A boy feeding a giraffe at a zoo<|endoftext|>"}
+{"prompt": "Construct a sentence with the word feed. \n\nHint: Use giraffe, feed, zoo to restrict the output sentence.\n", "completion": "A woman feeds two giraffes at the zoo.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lie. \n\nHint: Use lie, grass, cat to restrict the output sentence.\n", "completion": "cat lay on the grass<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cat. \n\nHint: Use lie, grass, cat to restrict the output sentence.\n", "completion": "cat lying in the grass<|endoftext|>"}
+{"prompt": "Construct a sentence with the word grass. \n\nHint: Use lie, grass, cat to restrict the output sentence.\n", "completion": "cat lying on grass in a public park<|endoftext|>"}
+{"prompt": "Construct a sentence with the word time. \n\nHint: Use beach, time, spend to restrict the output sentence.\n", "completion": "tourists spend time on a beach<|endoftext|>"}
+{"prompt": "Construct a sentence with the word spend. \n\nHint: Use beach, time, spend to restrict the output sentence.\n", "completion": "people spend time at the beach<|endoftext|>"}
+{"prompt": "Construct a sentence with the word time. \n\nHint: Use beach, time, spend to restrict the output sentence.\n", "completion": "spending some time on the beach<|endoftext|>"}
+{"prompt": "Construct a sentence with the word corn. \n\nHint: Use corn, cob, eat to restrict the output sentence.\n", "completion": "cat eating corn on the cob<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cob. \n\nHint: Use corn, cob, eat to restrict the output sentence.\n", "completion": "child eating a cob of corn .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word corn. \n\nHint: Use corn, cob, eat to restrict the output sentence.\n", "completion": "A boy is trying to eat corn on the cob.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word eat. \n\nHint: Use eat, hay, sheep to restrict the output sentence.\n", "completion": "sheeps eat hay on the farm .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word sheep. \n\nHint: Use eat, hay, sheep to restrict the output sentence.\n", "completion": "several sheep eating hay in a barn<|endoftext|>"}
+{"prompt": "Construct a sentence with the word sheep. \n\nHint: Use eat, hay, sheep to restrict the output sentence.\n", "completion": "sheep in a pen with some hay to eat<|endoftext|>"}
+{"prompt": "Construct a sentence with the word computer. \n\nHint: Use student, work, computer to restrict the output sentence.\n", "completion": "a student works on a computer<|endoftext|>"}
+{"prompt": "Construct a sentence with the word work. \n\nHint: Use student, work, computer to restrict the output sentence.\n", "completion": "student working at a computer<|endoftext|>"}
+{"prompt": "Construct a sentence with the word computer. \n\nHint: Use student, work, computer to restrict the output sentence.\n", "completion": "students working on the computer .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word airport. \n\nHint: Use wait, luggage, airport to restrict the output sentence.\n", "completion": "People wait for their luggage at an airport.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word luggage. \n\nHint: Use wait, luggage, airport to restrict the output sentence.\n", "completion": "Man waiting next to his luggage at an airport.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word airport. \n\nHint: Use wait, luggage, airport to restrict the output sentence.\n", "completion": "Several men waiting on their luggage at the airport.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word ship. \n\nHint: Use bridge, ship, pass to restrict the output sentence.\n", "completion": "the ship passes under the bridge<|endoftext|>"}
+{"prompt": "Construct a sentence with the word ship. \n\nHint: Use bridge, ship, pass to restrict the output sentence.\n", "completion": "with cargo ship passing under bridge<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bridge. \n\nHint: Use bridge, ship, pass to restrict the output sentence.\n", "completion": "A bridge rises to let two ships pass.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bride. \n\nHint: Use bride, flower, bouquet to restrict the output sentence.\n", "completion": "a bride with a bouquet of flowers<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bouquet. \n\nHint: Use bride, flower, bouquet to restrict the output sentence.\n", "completion": "the bride chose glorious flowers for the bouquets<|endoftext|>"}
+{"prompt": "Construct a sentence with the word flower. \n\nHint: Use bride, flower, bouquet to restrict the output sentence.\n", "completion": "a bouquet of yellow and orange flowers for the bride .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cake. \n\nHint: Use cake, couple, stand to restrict the output sentence.\n", "completion": "the couple stands by the cake<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cake. \n\nHint: Use cake, couple, stand to restrict the output sentence.\n", "completion": "The couple is standing next to a cake.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cake. \n\nHint: Use cake, couple, stand to restrict the output sentence.\n", "completion": "A couple stands behind their wedding cake.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word window. \n\nHint: Use window, stare, cat to restrict the output sentence.\n", "completion": "cat staring at the window<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cat. \n\nHint: Use window, stare, cat to restrict the output sentence.\n", "completion": "A cat staring out a window.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word window. \n\nHint: Use window, stare, cat to restrict the output sentence.\n", "completion": "The cat stares out of a four paned window.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word nurse. \n\nHint: Use hospital, patient, nurse to restrict the output sentence.\n", "completion": "nurse with a patient in the hospital<|endoftext|>"}
+{"prompt": "Construct a sentence with the word patient. \n\nHint: Use hospital, patient, nurse to restrict the output sentence.\n", "completion": "nurse visiting her patient at the hospital<|endoftext|>"}
+{"prompt": "Construct a sentence with the word nurse. \n\nHint: Use hospital, patient, nurse to restrict the output sentence.\n", "completion": "nurses take care of a patient at a hospital .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lie. \n\nHint: Use lie, dog, blanket to restrict the output sentence.\n", "completion": "pug dog lying under a blanket<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use lie, dog, blanket to restrict the output sentence.\n", "completion": "A man lies on a blanket with his dog.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word dog. \n\nHint: Use lie, dog, blanket to restrict the output sentence.\n", "completion": "The dog and her puppies lay on a blanket.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word farmer. \n\nHint: Use field, plow, farmer to restrict the output sentence.\n", "completion": "A farmer plows his field.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word plow. \n\nHint: Use field, plow, farmer to restrict the output sentence.\n", "completion": "The farmer is plowing his field.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word farmer. \n\nHint: Use field, plow, farmer to restrict the output sentence.\n", "completion": "A couple of farmers plowing a field<|endoftext|>"}
+{"prompt": "Construct a sentence with the word cat. \n\nHint: Use blanket, cat, lie to restrict the output sentence.\n", "completion": "cat lying on a blanket<|endoftext|>"}
+{"prompt": "Construct a sentence with the word lie. \n\nHint: Use blanket, cat, lie to restrict the output sentence.\n", "completion": "Two cats lay together on a blanket.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word blanket. \n\nHint: Use blanket, cat, lie to restrict the output sentence.\n", "completion": "cat lying in a blanket in the sunlight<|endoftext|>"}
+{"prompt": "Construct a sentence with the word wall. \n\nHint: Use painting, room, wall to restrict the output sentence.\n", "completion": "living room with painting on the wall<|endoftext|>"}
+{"prompt": "Construct a sentence with the word wall. \n\nHint: Use painting, room, wall to restrict the output sentence.\n", "completion": "A room that has a lot of paintings on the wall.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word painting. \n\nHint: Use painting, room, wall to restrict the output sentence.\n", "completion": "there were numerous paintings on the walls in this room .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word slope. \n\nHint: Use head, skier, slope to restrict the output sentence.\n", "completion": "The skier is headed down a slope.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word slope. \n\nHint: Use head, skier, slope to restrict the output sentence.\n", "completion": "A group of skiers heading down the slopes<|endoftext|>"}
+{"prompt": "Construct a sentence with the word skier. \n\nHint: Use head, skier, slope to restrict the output sentence.\n", "completion": "Skiers are headed down a small slope by their cabin.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word mother. \n\nHint: Use smile, daughter, mother to restrict the output sentence.\n", "completion": "mother and daughter smiling in the winter<|endoftext|>"}
+{"prompt": "Construct a sentence with the word daughter. \n\nHint: Use smile, daughter, mother to restrict the output sentence.\n", "completion": "mother and daughter embrace and smile on a beach<|endoftext|>"}
+{"prompt": "Construct a sentence with the word smile. \n\nHint: Use smile, daughter, mother to restrict the output sentence.\n", "completion": "A mother and daughter are smiling close together.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word friend. \n\nHint: Use gather, friend, family to restrict the output sentence.\n", "completion": "gather your friends and family .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word friend. \n\nHint: Use gather, friend, family to restrict the output sentence.\n", "completion": "friend and family gathered round the font<|endoftext|>"}
+{"prompt": "Construct a sentence with the word gather. \n\nHint: Use gather, friend, family to restrict the output sentence.\n", "completion": "friends and family gather often for a buffet .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word pull. \n\nHint: Use plow, pull, horse to restrict the output sentence.\n", "completion": "A horse is pulling a plow.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word plow. \n\nHint: Use plow, pull, horse to restrict the output sentence.\n", "completion": "The horses are pulling the plow.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word horse. \n\nHint: Use plow, pull, horse to restrict the output sentence.\n", "completion": "women guide a plow pulled by draft horses<|endoftext|>"}
+{"prompt": "Construct a sentence with the word meal. \n\nHint: Use share, table, meal to restrict the output sentence.\n", "completion": "people sharing a meal at a table<|endoftext|>"}
+{"prompt": "Construct a sentence with the word table. \n\nHint: Use share, table, meal to restrict the output sentence.\n", "completion": "a large dining table for guests to share meals<|endoftext|>"}
+{"prompt": "Construct a sentence with the word meal. \n\nHint: Use share, table, meal to restrict the output sentence.\n", "completion": "The woman and children share a meal at the table.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word construction. \n\nHint: Use construction, building, crane to restrict the output sentence.\n", "completion": "cranes and buildings under construction<|endoftext|>"}
+{"prompt": "Construct a sentence with the word crane. \n\nHint: Use construction, building, crane to restrict the output sentence.\n", "completion": "large crane over a building under construction<|endoftext|>"}
+{"prompt": "Construct a sentence with the word construction. \n\nHint: Use construction, building, crane to restrict the output sentence.\n", "completion": "construction the buildings with the help of cranes<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tie. \n\nHint: Use bow, ribbon, tie to restrict the output sentence.\n", "completion": "gold ribbon tied in a bow<|endoftext|>"}
+{"prompt": "Construct a sentence with the word ribbon. \n\nHint: Use bow, ribbon, tie to restrict the output sentence.\n", "completion": "tie a basic bow with ribbon<|endoftext|>"}
+{"prompt": "Construct a sentence with the word tie. \n\nHint: Use bow, ribbon, tie to restrict the output sentence.\n", "completion": "white gift box with red ribbon tied in a bow<|endoftext|>"}
+{"prompt": "Construct a sentence with the word picnic. \n\nHint: Use park, family, picnic to restrict the output sentence.\n", "completion": "family on the picnic in park<|endoftext|>"}
+{"prompt": "Construct a sentence with the word picnic. \n\nHint: Use park, family, picnic to restrict the output sentence.\n", "completion": "A family has a picnic at the park.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word park. \n\nHint: Use park, family, picnic to restrict the output sentence.\n", "completion": "young family having picnic in a park<|endoftext|>"}
+{"prompt": "Construct a sentence with the word reflect. \n\nHint: Use reflect, water, sunlight to restrict the output sentence.\n", "completion": "sunlight reflected in the water<|endoftext|>"}
+{"prompt": "Construct a sentence with the word water. \n\nHint: Use reflect, water, sunlight to restrict the output sentence.\n", "completion": "sunlight reflecting off the water<|endoftext|>"}
+{"prompt": "Construct a sentence with the word reflect. \n\nHint: Use reflect, water, sunlight to restrict the output sentence.\n", "completion": "rays of sunlight reflect off chilly waters<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use passenger, sit, train to restrict the output sentence.\n", "completion": "passengers sitting in a train<|endoftext|>"}
+{"prompt": "Construct a sentence with the word train. \n\nHint: Use passenger, sit, train to restrict the output sentence.\n", "completion": "passengers sit aboard a train at the station .<|endoftext|>"}
+{"prompt": "Construct a sentence with the word passenger. \n\nHint: Use passenger, sit, train to restrict the output sentence.\n", "completion": "A cable train with passengers sit on it tracks.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word wall. \n\nHint: Use clock, room, wall to restrict the output sentence.\n", "completion": "A small clock on a wall in a room.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word room. \n\nHint: Use clock, room, wall to restrict the output sentence.\n", "completion": "A clock rests along the wall of a room.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word room. \n\nHint: Use clock, room, wall to restrict the output sentence.\n", "completion": "There are two clocks on the wall in the room.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word room. \n\nHint: Use room, ceiling, wall to restrict the output sentence.\n", "completion": "damp on walls and ceiling of a room<|endoftext|>"}
+{"prompt": "Construct a sentence with the word room. \n\nHint: Use room, ceiling, wall to restrict the output sentence.\n", "completion": "walls add refinement to the room with slanted ceiling<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bone. \n\nHint: Use chew, bone, dog to restrict the output sentence.\n", "completion": "a dog chews a bone<|endoftext|>"}
+{"prompt": "Construct a sentence with the word bone. \n\nHint: Use chew, bone, dog to restrict the output sentence.\n", "completion": "The dog is chewing a bone.<|endoftext|>"}
+{"prompt": "Construct a sentence with the word chew. \n\nHint: Use chew, bone, dog to restrict the output sentence.\n", "completion": "Dogs lay down and chew bones<|endoftext|>"}
