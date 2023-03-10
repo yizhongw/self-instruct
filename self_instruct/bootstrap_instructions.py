@@ -171,7 +171,7 @@ if __name__ == "__main__":
                 prompt = encode_prompt(prompt_instructions, classification=args.use_clf_seed_tasks_only)
                 batch_inputs.append(prompt)
             results = make_gpt3_requests(
-                engine="davinci",
+                engine=args.engine,
                 prompts=batch_inputs,
                 max_tokens=1024,
                 temperature=0.7,
