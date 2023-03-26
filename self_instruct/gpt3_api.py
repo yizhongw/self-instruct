@@ -40,7 +40,7 @@ def make_requests(
             print(f"OpenAIError: {e}.")
             if "Please reduce your prompt" in str(e):
                 target_length = int(target_length * 0.8)
-                print(f"Reducing target length to {target_length}, Retrying...")
+                print(f"Reducing target length to {target_length}, retrying...")
             else:
                 print(f"Retrying in {backoff_time} seconds...")
                 time.sleep(backoff_time)
@@ -71,12 +71,12 @@ def parse_args():
     parser.add_argument(
         "--input_file",
         type=str,
-        help="The input file that contains the prompts to gpt3.",
+        help="The input file that contains the prompts to GPT3.",
     )
     parser.add_argument(
         "--output_file",
         type=str,
-        help="The output file to save the responses from gpt3.",
+        help="The output file to save the responses from GPT3.",
     )
     parser.add_argument(
         "--engine",

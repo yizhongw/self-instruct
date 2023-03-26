@@ -52,7 +52,7 @@ def parse_args():
     parser.add_argument(
         "--api_key",
         type=str,
-        help="The API key to use. If not specified, the key will be read from the environment variable OPENAI_API_KEY."
+        help="The API key to use. If not specified, the key will be read from the environment variable `OPENAI_API_KEY`."
     )
     parser.add_argument(
         "--organization",

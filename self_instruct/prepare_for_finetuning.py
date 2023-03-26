@@ -29,7 +29,7 @@ def parse_args():
         "--output_dir",
         default="data/gpt3_generations/batch_221203/finetuning/",
         type=str,
-        help="The output dir to save the cleaned version of the generated instances, so that it can be used for GPT3 finetunign."
+        help="The output dir to save the cleaned version of the generated instances, so that it can be used for GPT3 finetuning."
     )
     parser.add_argument(
         "--num_instructions",
