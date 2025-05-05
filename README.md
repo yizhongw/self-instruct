@@ -1,3 +1,74 @@
+# Project README: Task Generation and Fine-Tuning Data Preparation
+
+Due to recent updates in the OpenAI API, the original source code became outdated. The code has been updated to ensure compatibility and functionality. This README outlines the process of generating tasks, classifying them, creating instances, and preparing data for fine-tuning, as described below.
+
+## Overview
+The workflow involves generating machine-based tasks from a seed task, classifying them as classification or generation tasks, generating instances for these tasks, and preparing the data in a format suitable for fine-tuning a GPT model. The process consists of four main steps, detailed below.
+
+## Step 1: Task Generation
+- **Description**: Using the `bootstrap_instructions.py` script, 175 tasks are generated based on a seed task. The script samples tasks according to the `--num_prompt_instructions` parameter.
+- **Prompt Design**:
+  - For classification tasks:
+    ```python
+    prompt = "Come up with a series of classification tasks. Try to specify the possible output labels when possible.\n"
+    ```
+  - For non-classification (generation) tasks:
+    ```python
+    prompt = "Come up with a series of tasks:\n"
+    ```
+- **Process**:
+  - The script sends batch requests to the GPT model using the designed prompts.
+  - The response is stopped using the following stop sequences: `["\n\n", "\n16", "16.", "16 ."]`.
+  - If `--num_prompt_instructions=8`, up to 15 tasks are sampled, and the machine generates a maximum of `7 * batch_size` tasks.
+- **Output**: A file named `machine_generated_instructions.jsonl` containing the machine-generated tasks.
+
+## Step 2: Task Classification
+- **Description**: Using the `identify_clf_or_not.py` script, the tasks in `machine_generated_instructions.jsonl` are classified as either classification or generation tasks.
+- **Template**:
+  - The classification is based on a manually designed template (`template_1`) from `clf_task_template.py`.
+- **Process**:
+  - The script analyzes each task to determine its type (binary classification: classification vs. generation).
+- **Output**: A file named `is_clf_or_not_davinci-002_template_1.jsonl` containing the classification results.
+
+## Step 3: Instance Generation
+- **Description**: Using the `generate_instances.py` script, instances are generated for the tasks based on templates from `instance_gen_template.py`.
+- **Templates**:
+  - For classification tasks: `output_first_template_for_clf`.
+  - For generation tasks: `input_first_template_for_gen`.
+- **Process**:
+  - Similar to Step 1, requests are created by appending the task requiring completion to the prompt.
+  - For classification tasks, the template prioritizes outputting the class label followed by the input.
+  - For generation tasks, the input is prioritized.
+- **Output**: A file named `machine_generated_instances.jsonl` containing the generated instances.
+
+## Step 4: Data Preparation for Fine-Tuning
+- **Description**: Using the `prepare_for_finetuning.py` script, the generated instances are processed into a user-friendly format and a final dataset for fine-tuning.
+- **Process**:
+  - The script generates `all_generated_instances.jsonl`, which is easy to understand.
+  - It also creates `gpt3_finetuning_data_243.jsonl`, formatted for GPT fine-tuning.
+  - **Data Format**:
+    - **Prompt**: Contains the user-defined instruction and input.
+    - **Completion**: Contains the model-predicted output (e.g., class label for classification tasks or generated text for generation tasks).
+    - For classification tasks, the class label becomes the completion, while the instruction and input form the prompt.
+    - For generation tasks, the response is reordered to ensure the instruction and input are in the prompt, and the generated output is the completion.
+  - **Example Format** (first two lines of `gpt3_finetuning_data_243.jsonl`):
+    ```json
+    {"prompt": "Task: Complete the paragraph given its prefix.\nInput: During 2021, interest and investment in fintech grew significantly in many regions of the world \u2014 its scope broadening well-beyond its early definition.\nOutput:", "completion": " This expanding scope, combined with the growing maturity of a number of fintech subsectors, increasing investment in less mature jurisdictions, and surging corporate interest, is expected to keep investment high as we enter 2022. Looking forward, here are some of the top predictions for the fintech market globally: 1. Growing number of banks will offer embedded solutions; 2. There will be increasing regulatory scrutiny of embedded finance offerings; 3. Fintechs will focus on branding themselves as data organizations; 4. ESG-focused fintechs will have a big growth trajectory; 5. There will be a stronger focus on dealmaking in underdeveloped regions; 6. Unicorn status will lose some of lustre in developed markets, remain key in emerging ones.<|endoftext|>"}
+    {"prompt": "Given a set of numbers, find all possible subsets that sum to a given number.\n\nSet: {3,12,7,2,8,4}\nTarget sum: 14\n\nOutput:", "completion": " {12,2}, {7,3,4}, {8,2,4}<|endoftext|>"}
+    ```
+- **Note**:
+  - The `output_first_template_for_clf` and `input_first_template_for_gen` templates do not require deep understanding. For classification tasks, the class label is output first, followed by the input. In the final fine-tuning data (`gpt3_finetuning_data_243.jsonl`), the class label becomes the completion, and the instruction and input become the prompt.
+  - For generation tasks, the response may need reordering to ensure the instruction and input are in the prompt, and the generated output is the completion.
+
+## Key Notes
+- The fine-tuning data format ensures that all user-defined content (instructions and inputs) is in the `prompt`, and all model-predicted content is in the `completion`.
+- The process is designed to handle both classification and generation tasks, with templates ensuring consistency in the output format.
+- The code has been updated to address OpenAI API changes, ensuring compatibility and successful execution.
+
+
+# The following is the original author's README
+
+
 # Self-Instruct: Aligning LM with Self Generated Instructions
 
 This repository contains code and data for the [Self-Instruct paper](https://arxiv.org/abs/2212.10560), a method for aligning pretrained language models with instructions.

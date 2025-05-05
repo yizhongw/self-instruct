@@ -23,7 +23,8 @@ def parse_args():
     parser.add_argument(
         "--batch_dir",
         type=str,
-        required=True,
+        # required=True,
+        default="data/gpt3_generations/",
         help="The directory where the batch is stored.",
     )
     parser.add_argument(
@@ -40,7 +41,8 @@ def parse_args():
     parser.add_argument(
         "--engine",
         type=str,
-        default="davinci",
+        # default="davinci",
+        default="davinci-002",
         help="The engine to use."
     )
     parser.add_argument(
@@ -115,13 +117,15 @@ if __name__ == '__main__':
                 for i in range(len(batch)):
                     data = batch[i]
                     if results[i]["response"] is not None:
-                        data["is_classification"] = results[i]["response"]["choices"][0]["text"]
+                        # data["is_classification"] = results[i]["response"]["choices"][0]["text"]
+                        data["is_classification"] = results[i]["response"][0].text
                     else:
                         data["is_classification"] = ""
                     data = {
                         "instruction": data["instruction"],
                         "is_classification": data["is_classification"]
                     }
+                    # 保证dict的键顺序
                     data = OrderedDict(
                         (k, data[k]) for k in \
                             ["instruction", "is_classification"]

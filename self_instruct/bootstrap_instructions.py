@@ -39,9 +39,11 @@ def find_word_in_string(w, s):
 
 
 def post_process_gpt3_response(response):
-    if response is None or response["choices"][0]["finish_reason"] == "length":
+    # if response is None or response["choices"][0]["finish_reason"] == "length":
+    if response is None or response[0].finish_reason == "length":
         return []
-    raw_instructions = re.split(r"\n\d+\s?\. ", response["choices"][0]["text"])
+    # raw_instructions = re.split(r"\n\d+\s?\. ", response["choices"][0]["text"])
+    raw_instructions = re.split(r"\n\d+\s?\. ", response[0].text)
     instructions = []
     for inst in raw_instructions:
         inst = re.sub(r"\s+", " ", inst).strip()
@@ -75,21 +77,21 @@ def parse_args():
     parser.add_argument(
         "--batch_dir",
         type=str,
-        required=True,
-        default="data/gpt3_generations/",
+        # required=True,
         help="The directory where the batch is stored.",
     )
     parser.add_argument(
         "--seed_tasks_path",
         type=str,
-        required=True,
+        # required=True,
         default="data/seed_tasks.jsonl",
         help="The path to the human written data.",
     )
     parser.add_argument(
         "--num_instructions_to_generate",
         type=int,
-        default=100,
+        # default=100,
+        default=29,
         help="th",
     )
     parser.add_argument(
@@ -100,7 +102,8 @@ def parse_args():
     parser.add_argument(
         "--engine",
         type=str,
-        default="davinci",
+        # default="davinci",
+        default="davinci-002",
         help="The engine to use."
     )
     parser.add_argument(
@@ -127,11 +130,29 @@ def parse_args():
     )
     return parser.parse_args()
 
-
+# 在文件顶部添加一个辅助函数来处理不可序列化的对象
+def convert_to_serializable(obj):
+    """将对象转换为可JSON序列化的格式"""
+    if isinstance(obj, dict):
+        return {k: convert_to_serializable(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_to_serializable(item) for item in obj]
+    elif hasattr(obj, 'to_dict') and callable(getattr(obj, 'to_dict')):
+        return convert_to_serializable(obj.to_dict())
+    elif hasattr(obj, '__dict__'):
+        return convert_to_serializable(obj.__dict__)
+    else:
+        # 如果对象不能序列化，则转换为字符串
+        try:
+            json.dumps(obj)
+            return obj
+        except (TypeError, OverflowError):
+            return str(obj)
+        
 if __name__ == "__main__":
     args = parse_args()
-    seed_tasks = [json.loads(l) for l in open(args.seed_tasks_path, "r")]
-    if args.use_clf_seed_tasks_only:
+    seed_tasks = [json.loads(l) for l in open(args.seed_tasks_path, "r")] # {id, name, instruction, instances->[{input and output}], is_classification}
+    if args.use_clf_seed_tasks_only: # only use classification tasks
         seed_tasks = [t for t in seed_tasks if t["is_classification"]]
     seed_instructions = [t["instruction"] for t in seed_tasks]
     print(f"Loaded {len(seed_instructions)} human-written seed instructions")
@@ -159,21 +180,21 @@ if __name__ == "__main__":
     with open(os.path.join(args.batch_dir, "machine_generated_instructions.jsonl"), "a") as fout:
         while len(machine_instructions) < args.num_instructions_to_generate:
             batch_inputs = []
-            for _ in range(args.request_batch_size):
+            for _ in range(args.request_batch_size): # 一个request_batch_size中有了8个instruction，也就是说一次发给gpt有5batch*8instruction=40个instruction
                 # sample machine instructions from the pool
                 prompt_instructions = sample_machine_instructions(
                     machine_instructions, 
                     similarities=None,
                     n=2)
                 # sample human instructions from the pool
-                prompt_instructions += random.sample(seed_instructions, args.num_prompt_instructions - len(prompt_instructions))
+                prompt_instructions += random.sample(seed_instructions, args.num_prompt_instructions - len(prompt_instructions)) # 减法相当于确保每次prompt_instructions都是8个instruction
                 random.shuffle(prompt_instructions)
                 prompt = encode_prompt(prompt_instructions, classification=args.use_clf_seed_tasks_only)
                 batch_inputs.append(prompt)
             results = make_gpt3_requests(
                 engine=args.engine,
                 prompts=batch_inputs,
-                max_tokens=1024,
+                max_tokens=1024, # 1024
                 temperature=0.7,
                 top_p=0.5,
                 frequency_penalty=0,
@@ -193,6 +214,8 @@ if __name__ == "__main__":
                 all_metadata += [result] * len(new_instructions)
 
             for inst, metadata in zip(instructions, all_metadata):
+                # metadata["response"] = dict(metadata["response"][0])
+                metadata["response"] = convert_to_serializable(metadata["response"])
                 with Pool(4) as p:
                     rouge_scores = p.map(partial(scorer.score, inst), seed_instructions + machine_instructions)
                 rouge_scores = [score["rougeL"].fmeasure for score in rouge_scores]
@@ -212,4 +235,4 @@ if __name__ == "__main__":
                     "request_idx": request_idx
                 }) + "\n")
                 progress_bar.update(1)
-            request_idx += 1
+            request_idx += 1 # 每次运行make_gpt3_requests后，request_idx加1
