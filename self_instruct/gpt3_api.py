@@ -2,7 +2,9 @@ import json
 import tqdm
 import os
 import random
-import openai
+# import openai
+from openai import OpenAI
+from openai import OpenAIError
 from datetime import datetime
 import argparse
 import time
@@ -15,28 +17,31 @@ def make_requests(
     response = None
     target_length = max_tokens
     if api_key is not None:
-        openai.api_key = api_key
-    if organization is not None:
-        openai.organization = organization
+        # OpenAI().api_key = api_key
+        client = OpenAI(api_key=api_key, organization=organization)
+    # if organization is not None:
+    #     OpenAI().organization = organization
     retry_cnt = 0
     backoff_time = 30
-    while retry_cnt <= retries:
+    while retry_cnt <= retries: # 尝试连接3次，成功一次就break
         try:
-            response = openai.Completion.create(
-                engine=engine,
+            # response = OpenAI().completions.create(
+            response = client.completions.create(
+                # engine=engine,
+                model=engine,
                 prompt=prompts,
                 max_tokens=target_length,
                 temperature=temperature,
                 top_p=top_p,
                 frequency_penalty=frequency_penalty,
                 presence_penalty=presence_penalty,
-                stop=stop_sequences,
-                logprobs=logprobs,
-                n=n,
-                best_of=best_of,
+                stop=stop_sequences, # 生成的文本中停止的序列
+                logprobs=logprobs, # 如果 logprobs 是 5，则 API 将返回 5 个最有可能的标记的列表
+                n=n, # 每个prompt需要生成多少个补全         
+                best_of=best_of, # 生成 best_of 个补全，并返回“最佳”的（每个标记的最高对数概率），结果不能流式传输。返回的 best_of 必须大于 n
             )
             break
-        except openai.error.OpenAIError as e:
+        except OpenAIError as e:
             print(f"OpenAIError: {e}.")
             if "Please reduce your prompt" in str(e):
                 target_length = int(target_length * 0.8)
@@ -52,7 +57,8 @@ def make_requests(
         for j, prompt in enumerate(prompts):
             data = {
                 "prompt": prompt,
-                "response": {"choices": response["choices"][j * n: (j + 1) * n]} if response else None,
+                # "response": {"choices": response["choices"][j * n: (j + 1) * n]} if response else None,
+                "response": response.choices[j * n: (j + 1) * n] if response else None,
                 "created_at": str(datetime.now()),
             }
             results.append(data)

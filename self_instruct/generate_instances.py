@@ -18,7 +18,8 @@ def parse_args():
     parser.add_argument(
         "--batch_dir",
         type=str,
-        required=True,
+        # required=True,
+        default="data/gpt3_generations/",
         help="The directory where the batch is stored.",
     )
     parser.add_argument(
@@ -42,20 +43,28 @@ def parse_args():
         default=5,
         help="The max number of instances to generate for each instruction.",
     )
+    '''
+    # 使用标志（会设置为True）
+    python generate_instances.py --generation_tasks_only
+
+    # 不使用标志（保持默认False）
+    python generate_instances.py
+    '''
     parser.add_argument(
         "--generation_tasks_only",
         action="store_true",
-        help="If specified, only do for generation tasks.",
+        help="If specified, only do for generation tasks.", # 生成式任务
     )
     parser.add_argument(
         "--classification_tasks_only",
         action="store_true",
-        help="If specified, only do for classification tasks.",
+        help="If specified, only do for classification tasks.", # 判别式任务
     )
     parser.add_argument(
         "--engine",
         type=str,
-        default="davinci",
+        # default="davinci",
+        default="davinci-002",
         help="The engine to use."
     )
     parser.add_argument(
@@ -76,7 +85,24 @@ def parse_args():
     )
     return parser.parse_args()
 
-
+def convert_to_serializable(obj):
+    """将对象转换为可JSON序列化的格式"""
+    if isinstance(obj, dict):
+        return {k: convert_to_serializable(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_to_serializable(item) for item in obj]
+    elif hasattr(obj, 'to_dict') and callable(getattr(obj, 'to_dict')):
+        return convert_to_serializable(obj.to_dict())
+    elif hasattr(obj, '__dict__'):
+        return convert_to_serializable(obj.__dict__)
+    else:
+        # 如果对象不能序列化，则转换为字符串
+        try:
+            json.dumps(obj)
+            return obj
+        except (TypeError, OverflowError):
+            return str(obj)
+        
 if __name__ == '__main__':
     args = parse_args()
 
@@ -93,7 +119,8 @@ if __name__ == '__main__':
             tasks.append(data)
 
     task_clf_types = {}
-    with open(os.path.join(args.batch_dir, "is_clf_or_not_davinci_template_1.jsonl")) as fin:
+    # with open(os.path.join(args.batch_dir, "is_clf_or_not_davinci_template_1.jsonl")) as fin:
+    with open(os.path.join(args.batch_dir, "is_clf_or_not_davinci-002_template_1.jsonl")) as fin:
         for line in fin:
             data = json.loads(line)
             task_clf_types[data["instruction"]] = data["is_classification"].strip() in ["Yes", "yes", "YES"]
@@ -141,7 +168,8 @@ if __name__ == '__main__':
                 results = make_gpt3_requests(
                     engine=args.engine,
                     prompts=prompts,
-                    # because the clf template is longer, we need to decrease the max_tokens
+                    # because the clf template is longer, we need to decrease the max_tokens 
+                    # 符合API限制：OpenAI API对每个请求的总tokens（prompt + 生成内容）有上限；控制生成长度：分类任务通常需要的回答比较短（如"是"/"否"或选项ABCD等）；优化资源利用：减少不必要的token生成可以节省API成本和时间
                     max_tokens=300 if any(task_clf_types[task["instruction"]] for task in batch) else 350,
                     temperature=0,
                     top_p=0,
@@ -157,9 +185,13 @@ if __name__ == '__main__':
                     data = batch[i]
                     data["instance_metadata"] = results[i]
                     if results[i]["response"] is not None:
-                        data["raw_instances"] = results[i]["response"]["choices"][0]["text"]
+                        # data["raw_instances"] = results[i]["response"]["choices"][0]["text"]
+                        data["raw_instances"] = results[i]["response"][0].text
                     else:
                         data["raw_instances"] = ""
+                    
+                    data['instance_metadata']['response'] = convert_to_serializable(data['instance_metadata']['response'])
+
                     data = OrderedDict(
                         (k, data[k]) for k in \
                             ["instruction", "raw_instances", "instance_metadata", "instruction_metadata", 

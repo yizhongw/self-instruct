@@ -1,0 +1,47 @@
+{"instruction": "Make a small change to the code so that it produces the correct output.", "is_classification": " No"}
+{"instruction": "Given a set of sentences, find the most appropriate topic for each sentence.", "is_classification": " Yes"}
+{"instruction": "Generate a list of words that are synonyms to \"happy\".", "is_classification": " No"}
+{"instruction": "Given an article about basketball players, summarize it with several bullet points.", "is_classification": " No"}
+{"instruction": "Given a sentence, output its pos tag and lemma.", "is_classification": " Yes"}
+{"instruction": "Given a sentence, extract all entities from it.", "is_classification": " Yes"}
+{"instruction": "Given a wikipedia page title, write a sentence that describes what the page is about.", "is_classification": " No"}
+{"instruction": "Given a sentence, generate another sentence that contains the same meaning but different wording.", "is_classification": " No"}
+{"instruction": "Find all the phone numbers that are in california and us.", "is_classification": " No"}
+{"instruction": "Find all the emails from your friends.", "is_classification": " No"}
+{"instruction": "What is the output of the following code?", "is_classification": " No"}
+{"instruction": "How many miles does it take to drive from san francisco to new york city? 11. suppose you have a list of strings and an integer k, find the number of unique elements in the list that are smaller than or equal to k.", "is_classification": " No"}
+{"instruction": "Write a function which returns true if all characters in a string are either uppercase or lowercase.", "is_classification": " No"}
+{"instruction": "Write a function which returns true if there exists any index i such that arr[i] > arr[i+1].", "is_classification": " No"}
+{"instruction": "Given a binary tree, write a function to return its level order traversal.", "is_classification": " No"}
+{"instruction": "Given two sorted arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.", "is_classification": " No"}
+{"instruction": "Find a bug in the code and explain how you found it.", "is_classification": " No"}
+{"instruction": "Given an input, write a program that outputs its reverse.", "is_classification": " No"}
+{"instruction": "You need to add some functionality to the existing codebase. give me an example of what your changes should look like.", "is_classification": " No"}
+{"instruction": "Write a small function that does something simple.", "is_classification": " No"}
+{"instruction": "We have two lists. add them together and print out their sum.", "is_classification": " No"}
+{"instruction": "We have a list of numbers. sort them by value.", "is_classification": " No"}
+{"instruction": "Given a string, find out if it is the name of a prime number.", "is_classification": " No"}
+{"instruction": "Find out how many times each word appears in this text and output them sorted by frequency.", "is_classification": " Yes"}
+{"instruction": "Print the longest palindrome from a given list of palindromes.", "is_classification": " No"}
+{"instruction": "Create an animation using css that shows the following sequence: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10101010101...", "is_classification": " No"}
+{"instruction": "Generate a binary tree with depth d such that every node has exactly two children.", "is_classification": " No"}
+{"instruction": "Implement a function called add(x,y) which takes two integers x and y as input and returns their sum.", "is_classification": " No"}
+{"instruction": "Given a sentence, find the part of speech tag for each word in it.", "is_classification": " Yes"}
+{"instruction": "Find all the noun phrases and their types (noun or pronoun) in a given sentence.", "is_classification": " Yes"}
+{"instruction": "Find the nearest city to you.", "is_classification": " No"}
+{"instruction": "What is your favorite programming language? why?", "is_classification": " No"}
+{"instruction": "How would you design a database for an online bookstore?", "is_classification": " No"}
+{"instruction": "Given two sorted arrays, find the median of them.", "is_classification": " No"}
+{"instruction": "Tell me about your favorite open source project and why you like it.", "is_classification": " No"}
+{"instruction": "Design a system to manage contacts and their birthdays.", "is_classification": " No"}
+{"instruction": "What are some interesting properties of 2^64?", "is_classification": " No"}
+{"instruction": "Find all possible permutations of the given string and return them in lexicographic order.", "is_classification": " No"}
+{"instruction": "Given two strings s1 and s2, output true if they have the same prefix but different suffixes; otherwise, output false.", "is_classification": " Yes"}
+{"instruction": "Given an array of integers nums and an integer k, write a function to determine whether or not there exist two non-consecutive numbers in nums whose sum equals k.", "is_classification": " No"}
+{"instruction": "Given a list of names, find out if any of them are the same.", "is_classification": " No"}
+{"instruction": "Given a set of sentences, output their meaning in one sentence.", "is_classification": " Yes"}
+{"instruction": "Given an integer n and a number k, count all the numbers that satisfy the following condition: for each prime factor p of n, there exists another prime factor q of n such that 2 ≤ |p − q| < k.", "is_classification": " No"}
+{"instruction": "You need to write a program that can determine whether a word is palindromic or not.", "is_classification": " No"}
+{"instruction": "Write a code that can print the sum of all integers from 1 to n.", "is_classification": " No"}
+{"instruction": "Find out if the given number is a palindrome or not.", "is_classification": " No"}
+{"instruction": "Given a string, convert it into its ascii code representation.", "is_classification": " No"}

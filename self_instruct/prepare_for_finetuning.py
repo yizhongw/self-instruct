@@ -10,24 +10,27 @@ import pandas as pd
 
 random.seed(123)
 
-
+# finish_reading
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--instance_files",
         nargs="+",
-        default=["data/batch_221203/machine_generated_instances.jsonl"],
+        # default=["data/batch_221203/machine_generated_instances.jsonl"],
+        default=["data/gpt3_generations/machine_generated_instances.jsonl"],
         type=str,
         help="The input files that contain the machine generated instances."
     )
     parser.add_argument(
         "--classification_type_files",
         nargs="+",
-        default=["data/batch_221203/is_clf_or_not_davinci_template_1.jsonl"],
-    )
+        # default=["data/batch_221203/is_clf_or_not_davinci_template_1.jsonl"],
+        default=["data/gpt3_generations/is_clf_or_not_davinci-002_template_1.jsonl"],
+    ) 
     parser.add_argument(
         "--output_dir",
-        default="data/gpt3_generations/batch_221203/finetuning/",
+        # default="data/gpt3_generations/batch_221203/finetuning/",
+        default="data/gpt3_generations/",
         type=str,
         help="The output dir to save the cleaned version of the generated instances, so that it can be used for GPT3 finetuning."
     )
@@ -44,13 +47,13 @@ def parse_args():
     parser.add_argument(
         "--seed_tasks_path",
         type=str,
-        required=True,
+        # required=True,
         default="data/seed_tasks.jsonl",
         help="The path to the seed data.",
     )
     return parser.parse_args()
 
-
+# finish_reading
 def encode_instance(instruction, input, output, random_template=True):
     encoding_templates_w_input = [
         ("{instruction}\nInput: {input}\nOutput:", " {output}<|endoftext|>"),
@@ -74,7 +77,7 @@ def encode_instance(instruction, input, output, random_template=True):
             prompt_template, completion_template = random.choice(encoding_templates_w_input)
             prompt = prompt_template.format(instruction=instruction.strip(), input=input.strip())
             completion = completion_template.format(output=output.strip())
-        else:
+        else: # if input is empty
             prompt_template, completion_template = random.choice(encoding_templates_wo_input)
             prompt = prompt_template.format(instruction=instruction.strip())
             completion = completion_template.format(output=output.strip())
@@ -91,7 +94,7 @@ def encode_instance(instruction, input, output, random_template=True):
     }
     return data
 
-
+# finish_reading
 def parse_input_output(response_text):
     if re.findall(r"Output\s*\d*\s*:", response_text):
         inst_input = re.split(r"Output\s*\d*\s*:", response_text)[0].strip()
@@ -106,7 +109,7 @@ def parse_input_output(response_text):
     inst_input = re.sub(r"^Input\s*\d*\s*:", "", inst_input).strip()
     return inst_input, inst_output
 
-
+# finish_reading
 def filter_duplicate_instances(instances):
     # if the instances have same non-empty input, but different output, we will not use such instances
     same_input_diff_output = False
@@ -124,6 +127,7 @@ def filter_duplicate_instances(instances):
     instances = list(set(instances))
     return instances
 
+# finish_reading
 def filter_invalid_instances(instances):
     filtered_instances = []
     for instance in instances:
@@ -139,6 +143,7 @@ def filter_invalid_instances(instances):
         filtered_instances.append(instance)
     return filtered_instances
 
+# finish_reading
 def parse_instances_for_generation_task(raw_text, instruction, response_metadata):
     instances = []
     raw_text = raw_text.strip()
@@ -155,18 +160,20 @@ def parse_instances_for_generation_task(raw_text, instruction, response_metadata
     else:
         return []
     # if the generation stops because of length, we remove the last instance
-    if response_metadata["response"]["choices"][0]["finish_reason"] == "length":
+    # if response_metadata["response"]["choices"][0]["finish_reason"] == "length":
+    if response_metadata["response"][0]["finish_reason"] == "length":
         instances = instances[:-1]
     
     instances = filter_invalid_instances(instances)
     instances = filter_duplicate_instances(instances)
     return instances
 
+# finish_reading
 def parse_instances_for_classification_task(raw_text, instruction, response_metadata):
     instances = []
     if not "Class label:" in raw_text:
         return []
-    instance_texts = raw_text.split("Class label:")[1:]
+    instance_texts = raw_text.split("Class label:")[1:] # 去掉 --> [0]=''
     for instance_text in instance_texts:
         instance_text = instance_text.strip()
         fields = instance_text.split("\n", 1)
@@ -184,7 +191,8 @@ def parse_instances_for_classification_task(raw_text, instruction, response_meta
         instances.append((instruction.strip(), input_text.strip(), class_label.strip()))
 
     # if the generation stops because of length, we remove the last instance
-    if response_metadata["response"]["choices"][0]["finish_reason"] == "length":
+    # if response_metadata["response"]["choices"][0]["finish_reason"] == "length":
+    if response_metadata["response"][0]["finish_reason"] == "length":
         instances = instances[:-1]
     instances = filter_invalid_instances(instances)
     instances = filter_duplicate_instances(instances)
@@ -193,7 +201,7 @@ def parse_instances_for_classification_task(raw_text, instruction, response_meta
 
 if __name__ == "__main__":
     args = parse_args()
-
+    args.include_seed_tasks = True
     training_instances = []
     
     generated_tasks = []
